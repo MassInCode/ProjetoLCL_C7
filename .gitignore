@@ -1,0 +1,30 @@
+# Quartus build files
+/db/
+/incremental_db/
+/output_files/
+/simulation/
+/synthesis/
+/rtl_sim/
+
+# Quartus reports and logs
+*.rpt
+*.log
+*.chg
+*.cmp
+*.done
+*.dpf
+*.pin
+*.sof
+*.pof
+*.jdi
+*.jtag
+*.jic
+*.smsg
+*.summary
+*.qws
+*.bak*
+*.cdf
+
+# Simulation cache
+/modelsim.ini
+/work/
