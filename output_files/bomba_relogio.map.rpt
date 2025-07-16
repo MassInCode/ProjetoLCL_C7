@@ -1,0 +1,530 @@
+Analysis & Synthesis report for bomba_relogio
+Wed Jul 16 20:28:31 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for Inferred Entity Instance: temporizador:inst7|lpm_divide:Mod1
+ 13. Parameter Settings for Inferred Entity Instance: temporizador:inst7|lpm_divide:Div1
+ 14. Parameter Settings for Inferred Entity Instance: temporizador:inst7|lpm_divide:Mod0
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Wed Jul 16 20:28:31 2025           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; bomba_relogio                                   ;
+; Top-level Entity Name              ; bomba_relogio                                   ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; 316                                             ;
+;     Total combinational functions  ; 285                                             ;
+;     Dedicated logic registers      ; 121                                             ;
+; Total registers                    ; 121                                             ;
+; Total pins                         ; 117                                             ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C35F672C6       ;                    ;
+; Top-level entity name                                                      ; bomba_relogio      ; bomba_relogio      ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                          ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                ; Library ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------+---------+
+; verilog/temporizador.v           ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/verilog/temporizador.v        ;         ;
+; blocos/bomba_relogio.bdf         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/blocos/bomba_relogio.bdf      ;         ;
+; verilog/decoder7.v               ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/verilog/decoder7.v            ;         ;
+; verilog/save_password.v          ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/verilog/save_password.v       ;         ;
+; verilog/divisor_frequencia.v     ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/verilog/divisor_frequencia.v  ;         ;
+; verilog/comparador.v             ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/verilog/comparador.v          ;         ;
+; dicaandor.v                      ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/dicaandor.v                   ;         ;
+; displaytentativa.v               ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/displaytentativa.v            ;         ;
+; output_files/tick_generator.v    ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/output_files/tick_generator.v ;         ;
+; output_files/dicaled.v           ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/output_files/dicaled.v        ;         ;
+; vitoria.v                        ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/vitoria.v                     ;         ;
+; derrota.v                        ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/derrota.v                     ;         ;
+; multled.v                        ; yes             ; User Verilog HDL File              ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/multled.v                     ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_divide.tdf            ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/abs_divider.inc           ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/sign_div_unsign.inc       ;         ;
+; aglobal130.inc                   ; yes             ; Megafunction                       ; c:/altera/13.0sp1/quartus/libraries/megafunctions/aglobal130.inc            ;         ;
+; db/lpm_divide_25m.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/db/lpm_divide_25m.tdf         ;         ;
+; db/sign_div_unsign_9kh.tdf       ; yes             ; Auto-Generated Megafunction        ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/db/sign_div_unsign_9kh.tdf    ;         ;
+; db/alt_u_div_kve.tdf             ; yes             ; Auto-Generated Megafunction        ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/db/alt_u_div_kve.tdf          ;         ;
+; db/add_sub_lkc.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/db/add_sub_lkc.tdf            ;         ;
+; db/add_sub_mkc.tdf               ; yes             ; Auto-Generated Megafunction        ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/db/add_sub_mkc.tdf            ;         ;
+; db/lpm_divide_vcm.tdf            ; yes             ; Auto-Generated Megafunction        ; C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/db/lpm_divide_vcm.tdf         ;         ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------+---------+
+
+
++----------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                ;
++---------------------------------------------+------------------------------+
+; Resource                                    ; Usage                        ;
++---------------------------------------------+------------------------------+
+; Estimated Total logic elements              ; 316                          ;
+;                                             ;                              ;
+; Total combinational functions               ; 285                          ;
+; Logic element usage by number of LUT inputs ;                              ;
+;     -- 4 input functions                    ; 93                           ;
+;     -- 3 input functions                    ; 48                           ;
+;     -- <=2 input functions                  ; 144                          ;
+;                                             ;                              ;
+; Logic elements by mode                      ;                              ;
+;     -- normal mode                          ; 197                          ;
+;     -- arithmetic mode                      ; 88                           ;
+;                                             ;                              ;
+; Total registers                             ; 121                          ;
+;     -- Dedicated logic registers            ; 121                          ;
+;     -- I/O registers                        ; 0                            ;
+;                                             ;                              ;
+; I/O pins                                    ; 117                          ;
+; Embedded Multiplier 9-bit elements          ; 0                            ;
+; Maximum fan-out node                        ; tick_generator:inst14|clkout ;
+; Maximum fan-out                             ; 97                           ;
+; Total fan-out                               ; 1203                         ;
+; Average fan-out                             ; 2.30                         ;
++---------------------------------------------+------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                      ;
++-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                               ; Library Name ;
++-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------+--------------+
+; |bomba_relogio                            ; 285 (1)           ; 121 (7)      ; 0           ; 0            ; 0       ; 0         ; 117  ; 0            ; |bomba_relogio                                                                                                                    ; work         ;
+;    |DicaLEDR:inst24|                      ; 6 (6)             ; 12 (12)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|DicaLEDR:inst24                                                                                                    ; work         ;
+;    |Dicas:inst25|                         ; 12 (12)           ; 12 (12)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|Dicas:inst25                                                                                                       ; work         ;
+;    |DisplayTentativa:inst18|              ; 0 (0)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|DisplayTentativa:inst18                                                                                            ; work         ;
+;    |comparador_6bits:inst|                ; 5 (5)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|comparador_6bits:inst                                                                                              ; work         ;
+;    |controle_senha:inst33|                ; 4 (4)             ; 11 (11)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|controle_senha:inst33                                                                                              ; work         ;
+;    |leds_vitoria:inst23|                  ; 47 (47)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|leds_vitoria:inst23                                                                                                ; work         ;
+;    |mux_ledr:inst12|                      ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|mux_ledr:inst12                                                                                                    ; work         ;
+;    |temporizador:inst7|                   ; 164 (40)          ; 20 (20)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7                                                                                                 ; work         ;
+;       |hex7seg:h0|                        ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|hex7seg:h0                                                                                      ; work         ;
+;       |hex7seg:h1|                        ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|hex7seg:h1                                                                                      ; work         ;
+;       |hex7seg:h2|                        ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|hex7seg:h2                                                                                      ; work         ;
+;       |hex7seg:h3|                        ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|hex7seg:h3                                                                                      ; work         ;
+;       |lpm_divide:Div1|                   ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Div1                                                                                 ; work         ;
+;          |lpm_divide_vcm:auto_generated|  ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9kh:divider| ; 30 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider                       ; work         ;
+;                |alt_u_div_kve:divider|    ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider ; work         ;
+;       |lpm_divide:Mod0|                   ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0                                                                                 ; work         ;
+;          |lpm_divide_25m:auto_generated|  ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9kh:divider| ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider                       ; work         ;
+;                |alt_u_div_kve:divider|    ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider ; work         ;
+;       |lpm_divide:Mod1|                   ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod1                                                                                 ; work         ;
+;          |lpm_divide_25m:auto_generated|  ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9kh:divider| ; 33 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider                       ; work         ;
+;                |alt_u_div_kve:divider|    ; 33 (33)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider ; work         ;
+;    |tick_generator:inst14|                ; 39 (39)           ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|tick_generator:inst14                                                                                              ; work         ;
++-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                       ;
++----------------------------------------+-------------------------------------------------+
+; Register name                          ; Reason for Removal                              ;
++----------------------------------------+-------------------------------------------------+
+; leds_vitoria:inst23|LEDR[0..10,12..17] ; Merged with leds_vitoria:inst23|LEDR[11]        ;
+; Dicas:inst25|senha_reg[0]              ; Merged with DicaLEDR:inst24|senha_reg[0]        ;
+; Dicas:inst25|senha_reg[1]              ; Merged with DicaLEDR:inst24|senha_reg[1]        ;
+; Dicas:inst25|senha_reg[2]              ; Merged with DicaLEDR:inst24|senha_reg[2]        ;
+; Dicas:inst25|senha_reg[3]              ; Merged with DicaLEDR:inst24|senha_reg[3]        ;
+; Dicas:inst25|senha_reg[4]              ; Merged with DicaLEDR:inst24|senha_reg[4]        ;
+; Dicas:inst25|senha_reg[5]              ; Merged with DicaLEDR:inst24|senha_reg[5]        ;
+; comparador_6bits:inst|enter_ff         ; Merged with controle_senha:inst33|enter_btn_old ;
+; temporizador:inst7|ativo               ; Merged with temporizador:inst7|derrota          ;
+; Total Number of Removed Registers = 25 ;                                                 ;
++----------------------------------------+-------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 121   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 6     ;
+; Number of registers using Asynchronous Clear ; 7     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 78    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; temporizador:inst7|derrota             ; 11      ;
+; Total number of inverted registers = 1 ;         ;
++----------------------------------------+---------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |bomba_relogio|temporizador:inst7|dec[2] ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |bomba_relogio|temporizador:inst7|dec[3] ;
+; 5:1                ; 5 bits    ; 15 LEs        ; 10 LEs               ; 5 LEs                  ; Yes        ; |bomba_relogio|temporizador:inst7|sec[5] ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; Yes        ; |bomba_relogio|temporizador:inst7|ativo  ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |bomba_relogio|temporizador:inst7|min[0] ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |bomba_relogio|mux_ledr:inst12|LEDR[5]   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: temporizador:inst7|lpm_divide:Mod1 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 6              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_25m ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: temporizador:inst7|lpm_divide:Div1 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 6              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_vcm ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: temporizador:inst7|lpm_divide:Mod0 ;
++------------------------+----------------+-------------------------------------------+
+; Parameter Name         ; Value          ; Type                                      ;
++------------------------+----------------+-------------------------------------------+
+; LPM_WIDTHN             ; 6              ; Untyped                                   ;
+; LPM_WIDTHD             ; 4              ; Untyped                                   ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                   ;
+; LPM_PIPELINE           ; 0              ; Untyped                                   ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                   ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                   ;
+; CBXI_PARAMETER         ; lpm_divide_25m ; Untyped                                   ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                   ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                   ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                              ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                            ;
++------------------------+----------------+-------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Jul 16 20:28:29 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bomba_relogio -c bomba_relogio
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file verilog/temporizador.v
+    Info (12023): Found entity 1: temporizador
+Info (12021): Found 1 design units, including 1 entities, in source file blocos/bomba_relogio.bdf
+    Info (12023): Found entity 1: bomba_relogio
+Info (12021): Found 1 design units, including 1 entities, in source file verilog/decoder7.v
+    Info (12023): Found entity 1: hex7seg
+Info (12021): Found 1 design units, including 1 entities, in source file verilog/save_password.v
+    Info (12023): Found entity 1: controle_senha
+Info (12021): Found 1 design units, including 1 entities, in source file verilog/divisor_frequencia.v
+    Info (12023): Found entity 1: fdiv
+Info (12021): Found 1 design units, including 1 entities, in source file verilog/comparador.v
+    Info (12023): Found entity 1: comparador_6bits
+Warning (12019): Can't analyze file -- file contadordetentativas.v is missing
+Warning (12019): Can't analyze file -- file contadorunidades.v is missing
+Warning (12019): Can't analyze file -- file bomba_relogio.v is missing
+Warning (12019): Can't analyze file -- file Verilog4.v is missing
+Warning (12019): Can't analyze file -- file dicaor.v is missing
+Warning (12019): Can't analyze file -- file dicaand.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file dicaandor.v
+    Info (12023): Found entity 1: Dicas
+Info (12021): Found 1 design units, including 1 entities, in source file displaytentativa.v
+    Info (12023): Found entity 1: DisplayTentativa
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/tick_generator.v
+    Info (12023): Found entity 1: tick_generator
+Info (12021): Found 1 design units, including 1 entities, in source file output_files/dicaled.v
+    Info (12023): Found entity 1: DicaLEDR
+Info (12021): Found 1 design units, including 1 entities, in source file vitoria.v
+    Info (12023): Found entity 1: leds_vitoria
+Info (12021): Found 1 design units, including 1 entities, in source file derrota.v
+    Info (12023): Found entity 1: leds_derrota
+Info (12021): Found 1 design units, including 1 entities, in source file multled.v
+    Info (12023): Found entity 1: mux_ledr
+Info (12127): Elaborating entity "bomba_relogio" for the top level hierarchy
+Warning (275089): Not all bits in bus "KEY[3..0]" are used
+Warning (275080): Converted elements in bus name "KEY" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "KEY[0]" to "KEY0"
+    Warning (275081): Converted element name(s) from "KEY[3]" to "KEY3"
+Warning (275089): Not all bits in bus "SW[17..0]" are used
+Warning (275080): Converted elements in bus name "SW" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "SW[17..12]" to "SW17..12"
+    Warning (275081): Converted element name(s) from "SW[5..0]" to "SW5..0"
+    Warning (275081): Converted element name(s) from "SW[11..8]" to "SW11..8"
+Warning (275009): Pin "SW11" not connected
+Warning (275009): Pin "SW10" not connected
+Warning (275009): Pin "SW9" not connected
+Warning (275009): Pin "SW8" not connected
+Warning (275008): Primitive "GND" of instance "inst5888" not used
+Info (12128): Elaborating entity "comparador_6bits" for hierarchy "comparador_6bits:inst"
+Info (12128): Elaborating entity "tick_generator" for hierarchy "tick_generator:inst14"
+Warning (10230): Verilog HDL assignment warning at tick_generator.v(13): truncated value with size 32 to match size of target (23)
+Info (12128): Elaborating entity "controle_senha" for hierarchy "controle_senha:inst33"
+Info (12128): Elaborating entity "temporizador" for hierarchy "temporizador:inst7"
+Warning (10230): Verilog HDL assignment warning at temporizador.v(47): truncated value with size 32 to match size of target (6)
+Warning (10230): Verilog HDL assignment warning at temporizador.v(57): truncated value with size 32 to match size of target (6)
+Warning (10230): Verilog HDL assignment warning at temporizador.v(60): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at temporizador.v(70): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at temporizador.v(71): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at temporizador.v(72): truncated value with size 32 to match size of target (4)
+Warning (10230): Verilog HDL assignment warning at temporizador.v(73): truncated value with size 32 to match size of target (4)
+Info (12128): Elaborating entity "hex7seg" for hierarchy "temporizador:inst7|hex7seg:h0"
+Info (12128): Elaborating entity "DisplayTentativa" for hierarchy "DisplayTentativa:inst18"
+Info (12128): Elaborating entity "Dicas" for hierarchy "Dicas:inst25"
+Warning (10036): Verilog HDL or VHDL warning at dicaandor.v(12): object "tentativa_reg" assigned a value but never read
+Info (12128): Elaborating entity "mux_ledr" for hierarchy "mux_ledr:inst12"
+Info (12128): Elaborating entity "leds_derrota" for hierarchy "leds_derrota:inst8"
+Info (12128): Elaborating entity "DicaLEDR" for hierarchy "DicaLEDR:inst24"
+Warning (10036): Verilog HDL or VHDL warning at dicaled.v(11): object "tentativa_reg" assigned a value but never read
+Info (12128): Elaborating entity "leds_vitoria" for hierarchy "leds_vitoria:inst23"
+Warning (10230): Verilog HDL assignment warning at vitoria.v(18): truncated value with size 32 to match size of target (24)
+Info (12128): Elaborating entity "fdiv" for hierarchy "fdiv:inst11"
+Info (278001): Inferred 3 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "temporizador:inst7|Mod1"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "temporizador:inst7|Div1"
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "temporizador:inst7|Mod0"
+Info (12130): Elaborated megafunction instantiation "temporizador:inst7|lpm_divide:Mod1"
+Info (12133): Instantiated megafunction "temporizador:inst7|lpm_divide:Mod1" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHN" = "6"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_25m.tdf
+    Info (12023): Found entity 1: lpm_divide_25m
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_9kh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_9kh
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_kve.tdf
+    Info (12023): Found entity 1: alt_u_div_kve
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_lkc.tdf
+    Info (12023): Found entity 1: add_sub_lkc
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_mkc.tdf
+    Info (12023): Found entity 1: add_sub_mkc
+Info (12130): Elaborated megafunction instantiation "temporizador:inst7|lpm_divide:Div1"
+Info (12133): Instantiated megafunction "temporizador:inst7|lpm_divide:Div1" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHN" = "6"
+    Info (12134): Parameter "LPM_WIDTHD" = "4"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_vcm.tdf
+    Info (12023): Found entity 1: lpm_divide_vcm
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "HEX4[6]" is stuck at VCC
+    Warning (13410): Pin "HEX5[6]" is stuck at GND
+    Warning (13410): Pin "HEX5[5]" is stuck at GND
+    Warning (13410): Pin "HEX5[4]" is stuck at GND
+    Warning (13410): Pin "HEX5[3]" is stuck at GND
+    Warning (13410): Pin "HEX5[2]" is stuck at GND
+    Warning (13410): Pin "HEX5[1]" is stuck at GND
+    Warning (13410): Pin "HEX5[0]" is stuck at GND
+    Warning (13410): Pin "HEX6[6]" is stuck at VCC
+    Warning (13410): Pin "HEX7[6]" is stuck at VCC
+    Warning (13410): Pin "LEDG[8]" is stuck at VCC
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 4 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SW11"
+    Warning (15610): No output dependent on input pin "SW10"
+    Warning (15610): No output dependent on input pin "SW9"
+    Warning (15610): No output dependent on input pin "SW8"
+Info (21057): Implemented 433 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 19 input pins
+    Info (21059): Implemented 98 output pins
+    Info (21061): Implemented 316 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 49 warnings
+    Info: Peak virtual memory: 4610 megabytes
+    Info: Processing ended: Wed Jul 16 20:28:31 2025
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,2 @@
+assign LEDR = (senha_correta) ? leds_vitoria_out :
+              (derrota)       ? leds_derrota_out;  // pode ser dica, bits corretos etc.

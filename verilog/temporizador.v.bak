@@ -6,8 +6,7 @@ module temporizador (
     output wire [6:0] seg_min_un,
     output wire [6:0] seg_sec_dz,
     output wire [6:0] seg_sec_un,
-    output wire [6:0] seg_dec,
-    output reg derrota            // ← NOVO sinal de derrota
+    output wire [6:0] seg_dec
 );
 
     // Registradores do tempo
@@ -23,6 +22,7 @@ module temporizador (
     reg start_sync_1 = 0;
 
     wire start_edge;
+
     assign start_edge = (start_sync_0 & ~start_sync_1);  // borda de subida
 
     always @(posedge tick) begin
@@ -30,14 +30,13 @@ module temporizador (
         start_sync_0 <= start;
         start_sync_1 <= start_sync_0;
 
-        // Reset de derrota por novo start
+        // Se detectou borda de subida do start → reinicia
         if (start_edge) begin
             min <= 3;
             sec <= 0;
             dec <= 0;
             ativo <= 1;
             congelado <= 0;
-            derrota <= 0;            // ← reset do sinal de derrota
         end
         else if (ativo && !congelado) begin
             if (dec == 0) begin
@@ -51,7 +50,6 @@ module temporizador (
                         min <= 0;
                         sec <= 0;
                         dec <= 0;
-                        derrota <= 1;  // ← DERROTA ativada aqui
                     end
                 end else begin
                     sec <= sec - 1;
@@ -62,8 +60,7 @@ module temporizador (
         end
 
         // Trava permanente caso acerte
-        if (pare)
-            congelado <= 1;
+        if (pare) congelado <= 1;
     end
 
     // Conversão para displays

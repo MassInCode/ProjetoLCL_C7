@@ -1,0 +1,51 @@
+module Dicas (
+    input clk,
+    input start,                 // botão START: KEY[0]
+    input enter,                 // botão ENTER: KEY[3]
+    input [17:12] sw_senha,      // SW[17:12] - senha inicial
+    input [5:0] sw_tentativa,    // SW[5:0] - tentativa atual
+    output reg [6:0] HEX6,       // Display para OR
+    output reg [6:0] HEX7        // Display para AND
+);
+
+    reg [5:0] senha_reg = 6'b0;         // Armazena a senha
+    reg [5:0] tentativa_reg = 6'b0;     // Armazena a tentativa
+    reg [5:0] and_result_reg = 6'b0;    // Resultado AND persistente
+    reg [5:0] or_result_reg = 6'b0;     // Resultado OR persistente
+
+    // Armazenar a senha apenas uma vez ao apertar START
+    always @(posedge clk) begin
+        if (start) begin
+            senha_reg <= sw_senha;
+        end
+    end
+
+    // Atualiza tentativa e dicas ao pressionar ENTER
+    always @(posedge clk) begin
+        if (enter) begin
+            tentativa_reg   <= sw_tentativa;
+            and_result_reg  <= senha_reg & sw_tentativa;
+            or_result_reg   <= senha_reg | sw_tentativa;
+        end
+    end
+
+    // Atualiza displays com os bits armazenados
+    always @(*) begin
+        HEX7[0] = and_result_reg[0];
+        HEX7[1] = and_result_reg[1];
+        HEX7[2] = and_result_reg[2];
+        HEX7[3] = and_result_reg[3];
+        HEX7[4] = and_result_reg[4];
+        HEX7[5] = and_result_reg[5];
+        HEX7[6] = 1'b0; // segmento do meio desligado
+
+        HEX6[0] = or_result_reg[0];
+        HEX6[1] = or_result_reg[1];
+        HEX6[2] = or_result_reg[2];
+        HEX6[3] = or_result_reg[3];
+        HEX6[4] = or_result_reg[4];
+        HEX6[5] = or_result_reg[5];
+        HEX6[6] = 1'b0;
+    end
+
+endmodule

@@ -79,6 +79,13 @@ applicable agreement for further details.
 		(text "seg_dec[6..0]" (rect 117 91 171 103)(font "Arial" ))
 		(line (pt 192 96)(pt 176 96)(line_width 3))
 	)
+	(port
+		(pt 192 112)
+		(output)
+		(text "derrota" (rect 0 0 28 12)(font "Arial" ))
+		(text "derrota" (rect 143 107 171 119)(font "Arial" ))
+		(line (pt 192 112)(pt 176 112)(line_width 1))
+	)
 	(drawing
 		(rectangle (rect 16 16 176 128)(line_width 1))
 	)
