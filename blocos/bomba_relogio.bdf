@@ -91,7 +91,7 @@ applicable agreement for further details.
 	(input)
 	(rect -272 192 -104 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KEY[0]" (rect 5 0 40 12)(font "Arial" ))
+	(text "SW[6]" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -108,7 +108,7 @@ applicable agreement for further details.
 	(input)
 	(rect -272 240 -104 256)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "KEY[3]" (rect 5 0 40 12)(font "Arial" ))
+	(text "SW[7]" (rect 5 0 36 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1910,18 +1910,6 @@ applicable agreement for further details.
 	(pt 408 48)
 )
 (connector
-	(pt 1368 272)
-	(pt 1368 208)
-)
-(connector
-	(pt 1176 208)
-	(pt 1368 208)
-)
-(connector
-	(pt 1368 208)
-	(pt 1488 208)
-)
-(connector
 	(pt 40 232)
 	(pt 24 232)
 )
@@ -1972,10 +1960,6 @@ applicable agreement for further details.
 (connector
 	(pt 1480 -8)
 	(pt 1488 -8)
-)
-(connector
-	(pt 1400 -24)
-	(pt 1480 -24)
 )
 (connector
 	(pt 1480 -24)
@@ -2315,20 +2299,8 @@ applicable agreement for further details.
 	(pt 1184 -224)
 )
 (connector
-	(pt 1176 -224)
-	(pt 1176 -16)
-)
-(connector
 	(pt 1176 -16)
 	(pt 1176 48)
-)
-(connector
-	(pt 1136 -240)
-	(pt 1184 -240)
-)
-(connector
-	(pt 1136 -240)
-	(pt 1136 56)
 )
 (connector
 	(pt 1136 56)
@@ -2351,14 +2323,6 @@ applicable agreement for further details.
 	(pt 1368 -360)
 	(pt 1448 -360)
 	(bus)
-)
-(connector
-	(pt 1360 272)
-	(pt 1368 272)
-)
-(connector
-	(pt 1368 272)
-	(pt 1432 272)
 )
 (connector
 	(pt 1464 -240)
@@ -2391,10 +2355,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1432 272)
-	(pt 1432 424)
-)
-(connector
 	(pt 1432 424)
 	(pt 1536 424)
 )
@@ -2409,10 +2369,6 @@ applicable agreement for further details.
 (connector
 	(pt 1128 440)
 	(pt 1536 440)
-)
-(connector
-	(pt -288 80)
-	(pt -288 -40)
 )
 (connector
 	(pt -288 -40)
@@ -2434,6 +2390,58 @@ applicable agreement for further details.
 	(pt 552 1000)
 	(pt 1480 1000)
 	(bus)
+)
+(connector
+	(pt -288 -240)
+	(pt 1184 -240)
+)
+(connector
+	(pt -288 -240)
+	(pt -288 -40)
+)
+(connector
+	(pt -288 -40)
+	(pt -288 80)
+)
+(connector
+	(pt 1376 208)
+	(pt 1376 272)
+)
+(connector
+	(pt 1176 208)
+	(pt 1376 208)
+)
+(connector
+	(pt 1376 208)
+	(pt 1488 208)
+)
+(connector
+	(pt 1360 272)
+	(pt 1376 272)
+)
+(connector
+	(pt 1176 -224)
+	(pt 1176 -128)
+)
+(connector
+	(pt 1176 -128)
+	(pt 1432 -128)
+)
+(connector
+	(pt 1400 -24)
+	(pt 1432 -24)
+)
+(connector
+	(pt 1432 -24)
+	(pt 1480 -24)
+)
+(connector
+	(pt 1432 -128)
+	(pt 1432 -24)
+)
+(connector
+	(pt 1432 -24)
+	(pt 1432 424)
 )
 (junction (pt 360 344))
 (junction (pt 488 344))
@@ -2465,7 +2473,6 @@ applicable agreement for further details.
 (junction (pt 1048 304))
 (junction (pt 1152 496))
 (junction (pt 1368 288))
-(junction (pt 1368 208))
 (junction (pt 1176 48))
 (junction (pt 1400 -24))
 (junction (pt 1480 -24))
@@ -2494,8 +2501,8 @@ applicable agreement for further details.
 (junction (pt 304 872))
 (junction (pt -80 200))
 (junction (pt -80 248))
-(junction (pt 1176 -16))
-(junction (pt 1136 56))
-(junction (pt 1368 272))
 (junction (pt 1128 240))
+(junction (pt -288 -40))
+(junction (pt 1376 208))
+(junction (pt 1432 -24))
 (text "é necessário o divisor de frequência no clock para funcionar na DE2" (rect -744 -32 -354 -18)(font "Arial" (font_size 8)))

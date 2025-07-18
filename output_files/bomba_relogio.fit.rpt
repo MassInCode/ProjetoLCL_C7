@@ -1,5 +1,5 @@
 Fitter report for bomba_relogio
-Wed Jul 16 20:28:35 2025
+Thu Jul 17 21:31:05 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -63,14 +63,14 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Wed Jul 16 20:28:35 2025           ;
+; Fitter Status                      ; Successful - Thu Jul 17 21:31:05 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; bomba_relogio                                   ;
 ; Top-level Entity Name              ; bomba_relogio                                   ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C35F672C6                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 309 / 33,216 ( < 1 % )                          ;
+; Total logic elements               ; 311 / 33,216 ( < 1 % )                          ;
 ;     Total combinational functions  ; 288 / 33,216 ( < 1 % )                          ;
 ;     Dedicated logic registers      ; 121 / 33,216 ( < 1 % )                          ;
 ; Total registers                    ; 121                                             ;
@@ -419,24 +419,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Location ;                ;              ; SRAM_OE_N     ; PIN_AD10      ; QSF Assignment ;
 ; Location ;                ;              ; SRAM_UB_N     ; PIN_AF9       ; QSF Assignment ;
 ; Location ;                ;              ; SRAM_WE_N     ; PIN_AE10      ; QSF Assignment ;
-; Location ;                ;              ; SW[0]         ; PIN_N25       ; QSF Assignment ;
-; Location ;                ;              ; SW[10]        ; PIN_N1        ; QSF Assignment ;
-; Location ;                ;              ; SW[11]        ; PIN_P1        ; QSF Assignment ;
-; Location ;                ;              ; SW[12]        ; PIN_P2        ; QSF Assignment ;
-; Location ;                ;              ; SW[13]        ; PIN_T7        ; QSF Assignment ;
-; Location ;                ;              ; SW[14]        ; PIN_U3        ; QSF Assignment ;
-; Location ;                ;              ; SW[15]        ; PIN_U4        ; QSF Assignment ;
-; Location ;                ;              ; SW[16]        ; PIN_V1        ; QSF Assignment ;
-; Location ;                ;              ; SW[17]        ; PIN_V2        ; QSF Assignment ;
-; Location ;                ;              ; SW[1]         ; PIN_N26       ; QSF Assignment ;
-; Location ;                ;              ; SW[2]         ; PIN_P25       ; QSF Assignment ;
-; Location ;                ;              ; SW[3]         ; PIN_AE14      ; QSF Assignment ;
-; Location ;                ;              ; SW[4]         ; PIN_AF14      ; QSF Assignment ;
-; Location ;                ;              ; SW[5]         ; PIN_AD13      ; QSF Assignment ;
-; Location ;                ;              ; SW[6]         ; PIN_AC13      ; QSF Assignment ;
-; Location ;                ;              ; SW[7]         ; PIN_C13       ; QSF Assignment ;
-; Location ;                ;              ; SW[8]         ; PIN_B13       ; QSF Assignment ;
-; Location ;                ;              ; SW[9]         ; PIN_A13       ; QSF Assignment ;
 ; Location ;                ;              ; TCK           ; PIN_D14       ; QSF Assignment ;
 ; Location ;                ;              ; TCS           ; PIN_A14       ; QSF Assignment ;
 ; Location ;                ;              ; TDI           ; PIN_B14       ; QSF Assignment ;
@@ -498,8 +480,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Type                ; Value                  ;
 +---------------------+------------------------+
 ; Placement (by node) ;                        ;
-;     -- Requested    ; 0 / 528 ( 0.00 % )     ;
-;     -- Achieved     ; 0 / 528 ( 0.00 % )     ;
+;     -- Requested    ; 0 / 530 ( 0.00 % )     ;
+;     -- Achieved     ; 0 / 530 ( 0.00 % )     ;
 ;                     ;                        ;
 ; Routing (by net)    ;                        ;
 ;     -- Requested    ; 0 / 0 ( 0.00 % )       ;
@@ -522,7 +504,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 ; Partition Name                 ; # Nodes ; # Preserved Nodes ; Preservation Level Used ; Netlist Type Used ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
-; Top                            ; 525     ; 0                 ; N/A                     ; Source File       ;
+; Top                            ; 527     ; 0                 ; N/A                     ; Source File       ;
 ; hard_block:auto_generated_inst ; 3       ; 0                 ; N/A                     ; Source File       ;
 +--------------------------------+---------+-------------------+-------------------------+-------------------+
 
@@ -538,16 +520,16 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 +---------------------------------------------+------------------------+
 ; Resource                                    ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Total logic elements                        ; 309 / 33,216 ( < 1 % ) ;
-;     -- Combinational with no register       ; 188                    ;
-;     -- Register only                        ; 21                     ;
-;     -- Combinational with a register        ; 100                    ;
+; Total logic elements                        ; 311 / 33,216 ( < 1 % ) ;
+;     -- Combinational with no register       ; 190                    ;
+;     -- Register only                        ; 23                     ;
+;     -- Combinational with a register        ; 98                     ;
 ;                                             ;                        ;
 ; Logic element usage by number of LUT inputs ;                        ;
-;     -- 4 input functions                    ; 93                     ;
-;     -- 3 input functions                    ; 48                     ;
-;     -- <=2 input functions                  ; 147                    ;
-;     -- Register only                        ; 21                     ;
+;     -- 4 input functions                    ; 101                    ;
+;     -- 3 input functions                    ; 41                     ;
+;     -- <=2 input functions                  ; 146                    ;
+;     -- Register only                        ; 23                     ;
 ;                                             ;                        ;
 ; Logic elements by mode                      ;                        ;
 ;     -- normal mode                          ; 200                    ;
@@ -560,7 +542,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; Total LABs:  partially or completely used   ; 25 / 2,076 ( 1 % )     ;
 ; Virtual pins                                ; 0                      ;
 ; I/O pins                                    ; 117 / 475 ( 25 % )     ;
-;     -- Clock pins                           ; 2 / 8 ( 25 % )         ;
+;     -- Clock pins                           ; 8 / 8 ( 100 % )        ;
 ;                                             ;                        ;
 ; Global signals                              ; 2                      ;
 ; M4Ks                                        ; 0 / 105 ( 0 % )        ;
@@ -573,11 +555,11 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )          ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )          ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%           ;
-; Peak interconnect usage (total/H/V)         ; 1% / 1% / 1%           ;
-; Maximum fan-out                             ; 97                     ;
+; Peak interconnect usage (total/H/V)         ; 1% / 2% / 1%           ;
+; Maximum fan-out                             ; 70                     ;
 ; Highest non-global fan-out                  ; 28                     ;
-; Total fan-out                               ; 1224                   ;
-; Average fan-out                             ; 2.24                   ;
+; Total fan-out                               ; 1237                   ;
+; Average fan-out                             ; 2.25                   ;
 +---------------------------------------------+------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -590,16 +572,16 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 +---------------------------------------------+-----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                   ; Low                            ;
 ;                                             ;                       ;                                ;
-; Total logic elements                        ; 309 / 33216 ( < 1 % ) ; 0 / 33216 ( 0 % )              ;
-;     -- Combinational with no register       ; 188                   ; 0                              ;
-;     -- Register only                        ; 21                    ; 0                              ;
-;     -- Combinational with a register        ; 100                   ; 0                              ;
+; Total logic elements                        ; 311 / 33216 ( < 1 % ) ; 0 / 33216 ( 0 % )              ;
+;     -- Combinational with no register       ; 190                   ; 0                              ;
+;     -- Register only                        ; 23                    ; 0                              ;
+;     -- Combinational with a register        ; 98                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic element usage by number of LUT inputs ;                       ;                                ;
-;     -- 4 input functions                    ; 93                    ; 0                              ;
-;     -- 3 input functions                    ; 48                    ; 0                              ;
-;     -- <=2 input functions                  ; 147                   ; 0                              ;
-;     -- Register only                        ; 21                    ; 0                              ;
+;     -- 4 input functions                    ; 101                   ; 0                              ;
+;     -- 3 input functions                    ; 41                    ; 0                              ;
+;     -- <=2 input functions                  ; 146                   ; 0                              ;
+;     -- Register only                        ; 23                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic elements by mode                      ;                       ;                                ;
 ;     -- normal mode                          ; 200                   ; 0                              ;
@@ -624,8 +606,8 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ;     -- Registered Output Connections        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Internal Connections                        ;                       ;                                ;
-;     -- Total Connections                    ; 1224                  ; 0                              ;
-;     -- Registered Connections               ; 390                   ; 0                              ;
+;     -- Total Connections                    ; 1237                  ; 0                              ;
+;     -- Registered Connections               ; 391                   ; 0                              ;
 ;                                             ;                       ;                                ;
 ; External Connections                        ;                       ;                                ;
 ;     -- Top                                  ; 0                     ; 0                              ;
@@ -658,24 +640,24 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; Name     ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +----------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; CLOCK_50 ; N2    ; 2        ; 0            ; 18           ; 0           ; 1                     ; 0                  ; yes    ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; KEY0     ; AF9   ; 8        ; 22           ; 0            ; 2           ; 10                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; KEY3     ; AF6   ; 8        ; 11           ; 0            ; 1           ; 28                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW0      ; V2    ; 1        ; 0            ; 12           ; 3           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW1      ; V1    ; 1        ; 0            ; 12           ; 2           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW10     ; AE14  ; 7        ; 33           ; 0            ; 0           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW11     ; AF14  ; 7        ; 33           ; 0            ; 1           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW12     ; V4    ; 1        ; 0            ; 11           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW13     ; V3    ; 1        ; 0            ; 11           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW14     ; Y1    ; 1        ; 0            ; 9            ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW15     ; U5    ; 1        ; 0            ; 9            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW16     ; V5    ; 1        ; 0            ; 8            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW17     ; AA1   ; 1        ; 0            ; 8            ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW2      ; U10   ; 1        ; 0            ; 13           ; 3           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW3      ; W2    ; 1        ; 0            ; 10           ; 0           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW4      ; W1    ; 1        ; 0            ; 10           ; 1           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW5      ; U4    ; 1        ; 0            ; 12           ; 1           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW8      ; M20   ; 5        ; 65           ; 21           ; 1           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
-; SW9      ; J16   ; 4        ; 57           ; 36           ; 0           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; Fitter               ;
+; SW[0]    ; N25   ; 5        ; 65           ; 19           ; 0           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[10]   ; N1    ; 2        ; 0            ; 18           ; 1           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[11]   ; P1    ; 1        ; 0            ; 18           ; 3           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[12]   ; P2    ; 1        ; 0            ; 18           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[13]   ; T7    ; 1        ; 0            ; 11           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[14]   ; U3    ; 1        ; 0            ; 12           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[15]   ; U4    ; 1        ; 0            ; 12           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[16]   ; V1    ; 1        ; 0            ; 12           ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[17]   ; V2    ; 1        ; 0            ; 12           ; 3           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[1]    ; N26   ; 5        ; 65           ; 19           ; 1           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[2]    ; P25   ; 6        ; 65           ; 19           ; 2           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[3]    ; AE14  ; 7        ; 33           ; 0            ; 0           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[4]    ; AF14  ; 7        ; 33           ; 0            ; 1           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[5]    ; AD13  ; 8        ; 33           ; 0            ; 2           ; 5                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[6]    ; AC13  ; 8        ; 33           ; 0            ; 3           ; 10                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[7]    ; C13   ; 3        ; 31           ; 36           ; 2           ; 28                    ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[8]    ; B13   ; 4        ; 31           ; 36           ; 0           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; SW[9]    ; A13   ; 4        ; 31           ; 36           ; 1           ; 0                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 +----------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 
 
@@ -684,8 +666,8 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 +--------------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 ; Name               ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ; Output Enable Source ; Output Enable Group ;
 +--------------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
-; ACERTOU            ; AC2   ; 1        ; 0            ; 5            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; ERROU              ; W3    ; 1        ; 0            ; 9            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; ACERTOU            ; L4    ; 2        ; 0            ; 25           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; ERROU              ; T6    ; 1        ; 0            ; 11           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 ; HEX0[0]            ; AF10  ; 8        ; 24           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
 ; HEX0[1]            ; AB12  ; 8        ; 24           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
 ; HEX0[2]            ; AC12  ; 8        ; 24           ; 0            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
@@ -769,19 +751,19 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; LEDR[7]            ; AC21  ; 7        ; 61           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
 ; LEDR[8]            ; AA14  ; 7        ; 37           ; 0            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
 ; LEDR[9]            ; Y13   ; 7        ; 37           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 0 pF ; -                    ; -                   ;
-; SENHA_SALVA[0]     ; T6    ; 1        ; 0            ; 11           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_SALVA[1]     ; T7    ; 1        ; 0            ; 11           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_SALVA[2]     ; R8    ; 1        ; 0            ; 7            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_SALVA[3]     ; U3    ; 1        ; 0            ; 12           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_SALVA[4]     ; Y4    ; 1        ; 0            ; 7            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_SALVA[5]     ; T8    ; 1        ; 0            ; 7            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_TENTATIVA[0] ; U7    ; 1        ; 0            ; 10           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_TENTATIVA[1] ; U6    ; 1        ; 0            ; 10           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_TENTATIVA[2] ; V6    ; 1        ; 0            ; 8            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_TENTATIVA[3] ; Y3    ; 1        ; 0            ; 7            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_TENTATIVA[4] ; W4    ; 1        ; 0            ; 9            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; SENHA_TENTATIVA[5] ; AA2   ; 1        ; 0            ; 8            ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
-; pin_name1          ; V7    ; 1        ; 0            ; 6            ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_SALVA[0]     ; J2    ; 2        ; 0            ; 26           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_SALVA[1]     ; K2    ; 2        ; 0            ; 25           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_SALVA[2]     ; K4    ; 2        ; 0            ; 26           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_SALVA[3]     ; J1    ; 2        ; 0            ; 26           ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_SALVA[4]     ; W2    ; 1        ; 0            ; 10           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_SALVA[5]     ; K1    ; 2        ; 0            ; 25           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_TENTATIVA[0] ; T10   ; 1        ; 0            ; 16           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_TENTATIVA[1] ; K3    ; 2        ; 0            ; 26           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_TENTATIVA[2] ; V3    ; 1        ; 0            ; 11           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_TENTATIVA[3] ; V4    ; 1        ; 0            ; 11           ; 2           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_TENTATIVA[4] ; U10   ; 1        ; 0            ; 13           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; SENHA_TENTATIVA[5] ; L10   ; 2        ; 0            ; 23           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
+; pin_name1          ; F12   ; 3        ; 27           ; 36           ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ; -                    ; -                   ;
 +--------------------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+----------------------+---------------------+
 
 
@@ -790,12 +772,12 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 +----------+------------------+---------------+--------------+
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
 +----------+------------------+---------------+--------------+
-; 1        ; 44 / 64 ( 69 % ) ; 3.3V          ; --           ;
-; 2        ; 14 / 59 ( 24 % ) ; 3.3V          ; --           ;
-; 3        ; 0 / 56 ( 0 % )   ; 3.3V          ; --           ;
-; 4        ; 1 / 58 ( 2 % )   ; 3.3V          ; --           ;
-; 5        ; 1 / 65 ( 2 % )   ; 3.3V          ; --           ;
-; 6        ; 22 / 59 ( 37 % ) ; 3.3V          ; --           ;
+; 1        ; 30 / 64 ( 47 % ) ; 3.3V          ; --           ;
+; 2        ; 23 / 59 ( 39 % ) ; 3.3V          ; --           ;
+; 3        ; 2 / 56 ( 4 % )   ; 3.3V          ; --           ;
+; 4        ; 2 / 58 ( 3 % )   ; 3.3V          ; --           ;
+; 5        ; 2 / 65 ( 3 % )   ; 3.3V          ; --           ;
+; 6        ; 23 / 59 ( 39 % ) ; 3.3V          ; --           ;
 ; 7        ; 24 / 58 ( 41 % ) ; 3.3V          ; --           ;
 ; 8        ; 14 / 56 ( 25 % ) ; 3.3V          ; --           ;
 +----------+------------------+---------------+--------------+
@@ -817,7 +799,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; A10      ; 447        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A11      ;            ; 3        ; VCCIO3                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; A12      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; A13      ; 430        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; A13      ; 430        ; 4        ; SW[9]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; A14      ; 427        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A15      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; A16      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -830,8 +812,8 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; A23      ; 378        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A24      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; A25      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; AA1      ; 107        ; 1        ; SW17                                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; AA2      ; 106        ; 1        ; SENHA_TENTATIVA[5]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; AA1      ; 107        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; AA2      ; 106        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AA3      ; 117        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AA4      ; 116        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AA5      ; 120        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -883,7 +865,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; AB25     ; 263        ; 6        ; HEX2[5]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AB26     ; 262        ; 6        ; HEX2[4]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; AC1      ; 119        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; AC2      ; 118        ; 1        ; ACERTOU                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; AC2      ; 118        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AC3      ; 128        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; AC4      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AC5      ; 133        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -894,7 +876,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; AC10     ; 164        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC11     ; 168        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC12     ; 172        ; 8        ; HEX0[2]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AC13     ; 185        ; 8        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; AC13     ; 185        ; 8        ; SW[6]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AC14     ; 191        ; 7        ; LEDR[11]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AC15     ; 199        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AC16     ; 202        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
@@ -920,7 +902,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; AD10     ; 167        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AD11     ; 173        ; 8        ; HEX0[3]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AD12     ; 181        ; 8        ; LEDR[17]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AD13     ; 186        ; 8        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; AD13     ; 186        ; 8        ; SW[5]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AD14     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AD15     ; 190        ; 7        ; LEDR[12]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AD16     ; 201        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -947,7 +929,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; AE11     ; 174        ; 8        ; HEX0[4]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AE12     ; 182        ; 8        ; LEDR[16]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AE13     ; 183        ; 8        ; LEDR[15]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AE14     ; 188        ; 7        ; SW10                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; AE14     ; 188        ; 7        ; SW[3]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AE15     ; 189        ; 7        ; LEDR[13]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AE16     ; 200        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AE17     ; 206        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -964,15 +946,15 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; AF3      ;            ; 8        ; VCCIO8                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AF4      ; 132        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF5      ; 138        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AF6      ; 151        ; 8        ; KEY3                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; AF6      ; 151        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF7      ; 158        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF8      ; 160        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; AF9      ; 166        ; 8        ; KEY0                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; AF9      ; 166        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AF10     ; 170        ; 8        ; HEX0[0]                                  ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AF11     ;            ; 8        ; VCCIO8                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AF12     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AF13     ; 184        ; 8        ; LEDR[14]                                 ; output ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
-; AF14     ; 187        ; 7        ; SW11                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; AF14     ; 187        ; 7        ; SW[4]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; AF15     ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; AF16     ;            ; 7        ; VCCIO7                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AF17     ; 205        ; 7        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -996,7 +978,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; B10      ; 448        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B11      ; 435        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B12      ; 433        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; B13      ; 429        ; 4        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; B13      ; 429        ; 4        ; SW[8]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; B14      ; 428        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B15      ; 420        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B16      ; 419        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1022,7 +1004,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; C10      ; 450        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C11      ; 436        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C12      ; 434        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; C13      ; 431        ; 3        ; GND+                                     ;        ;              ;         ; Column I/O ;                 ; --       ; --           ;
+; C13      ; 431        ; 3        ; SW[7]                                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; C14      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; C15      ; 421        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C16      ; 418        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1099,7 +1081,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; F9       ; 470        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F10      ; 462        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F11      ; 454        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; F12      ; 440        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; F12      ; 440        ; 3        ; pin_name1                                ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; F13      ; 423        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F14      ; 425        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; F15      ; 409        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1166,8 +1148,8 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; H24      ; 340        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; H25      ; 337        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; H26      ; 336        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; J1       ; 39         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; J2       ; 38         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; J1       ; 39         ; 2        ; SENHA_SALVA[3]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; J2       ; 38         ; 2        ; SENHA_SALVA[0]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; J3       ; 34         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; J4       ; 35         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; J5       ; 15         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
@@ -1181,7 +1163,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; J13      ; 442        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; J14      ; 441        ; 3        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; J15      ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; J16      ; 385        ; 4        ; SW9                                      ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; J16      ; 385        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; J17      ; 399        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; J18      ; 383        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; J19      ;            ; 5        ; VCCIO5                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -1192,10 +1174,10 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; J24      ; 338        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; J25      ; 327        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; J26      ; 326        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; K1       ; 42         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; K2       ; 43         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; K3       ; 41         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; K4       ; 40         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; K1       ; 42         ; 2        ; SENHA_SALVA[5]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; K2       ; 43         ; 2        ; SENHA_SALVA[1]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; K3       ; 41         ; 2        ; SENHA_TENTATIVA[1]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; K4       ; 40         ; 2        ; SENHA_SALVA[2]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; K5       ; 22         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; K6       ; 21         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; K7       ; 27         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1221,13 +1203,13 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; L1       ;            ; 2        ; VCCIO2                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; L2       ; 50         ; 2        ; HEX7[1]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; L3       ; 51         ; 2        ; HEX7[0]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; L4       ; 44         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; L4       ; 44         ; 2        ; ACERTOU                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; L5       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; L6       ; 48         ; 2        ; HEX7[3]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; L7       ; 47         ; 2        ; HEX7[4]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; L8       ; 59         ; 2        ; #TMS                                     ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; L9       ; 49         ; 2        ; HEX7[2]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; L10      ; 52         ; 2        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; L10      ; 52         ; 2        ; SENHA_TENTATIVA[5]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; L11      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; L12      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; L13      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1263,14 +1245,14 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; M17      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; M18      ;            ; 5        ; VCCIO5                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; M19      ; 317        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; M20      ; 316        ; 5        ; SW8                                      ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; M20      ; 316        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M21      ; 314        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M22      ; 319        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M23      ; 318        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M24      ; 313        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M25      ; 312        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; M26      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; N1       ; 65         ; 2        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; N1       ; 65         ; 2        ; SW[10]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; N2       ; 64         ; 2        ; CLOCK_50                                 ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; N3       ; 62         ; 2        ; ^DATA0                                   ; input  ;              ;         ; --         ;                 ; --       ; --           ;
 ; N4       ; 63         ; 2        ; ^nCE                                     ;        ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1294,10 +1276,10 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; N22      ;            ; 5        ; VCCIO5                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; N23      ; 311        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; N24      ; 310        ; 5        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; N25      ; 309        ; 5        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
-; N26      ; 308        ; 5        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
-; P1       ; 68         ; 1        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
-; P2       ; 67         ; 1        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; N25      ; 309        ; 5        ; SW[0]                                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; N26      ; 308        ; 5        ; SW[1]                                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; P1       ; 68         ; 1        ; SW[11]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; P2       ; 67         ; 1        ; SW[12]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; P3       ; 69         ; 1        ; HEX6[2]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; P4       ; 70         ; 1        ; HEX6[1]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; P5       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -1320,7 +1302,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; P22      ;            ; 6        ; VCCIO6                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; P23      ; 305        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; P24      ; 304        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; P25      ; 307        ; 6        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
+; P25      ; 307        ; 6        ; SW[2]                                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; P26      ; 306        ; 6        ; GND+                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; R1       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; R2       ; 71         ; 1        ; HEX6[0]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
@@ -1329,7 +1311,7 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; R5       ; 74         ; 1        ; HEX5[4]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; R6       ; 81         ; 1        ; HEX4[5]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; R7       ; 82         ; 1        ; HEX4[4]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; R8       ; 110        ; 1        ; SENHA_SALVA[2]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; R8       ; 110        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; R9       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; R10      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; R11      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -1353,11 +1335,11 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; T3       ; 80         ; 1        ; HEX4[6]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; T4       ; 83         ; 1        ; HEX4[3]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; T5       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-; T6       ; 93         ; 1        ; SENHA_SALVA[0]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; T7       ; 92         ; 1        ; SENHA_SALVA[1]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; T8       ; 111        ; 1        ; SENHA_SALVA[5]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; T6       ; 93         ; 1        ; ERROU                                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; T7       ; 92         ; 1        ; SW[13]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; T8       ; 111        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; T9       ; 76         ; 1        ; HEX5[3]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; T10      ; 75         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; T10      ; 75         ; 1        ; SENHA_TENTATIVA[0]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; T11      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; T12      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; T13      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1376,14 +1358,14 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; T26      ;            ; 6        ; VCCIO6                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; U1       ; 85         ; 1        ; HEX4[1]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; U2       ; 84         ; 1        ; HEX4[2]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; U3       ; 88         ; 1        ; SENHA_SALVA[3]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; U4       ; 89         ; 1        ; SW5                                      ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; U5       ; 100        ; 1        ; SW15                                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; U6       ; 98         ; 1        ; SENHA_TENTATIVA[1]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; U7       ; 99         ; 1        ; SENHA_TENTATIVA[0]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; U3       ; 88         ; 1        ; SW[14]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; U4       ; 89         ; 1        ; SW[15]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; U5       ; 100        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; U6       ; 98         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; U7       ; 99         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U8       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; U9       ; 86         ; 1        ; HEX4[0]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
-; U10      ; 87         ; 1        ; SW2                                      ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; U10      ; 87         ; 1        ; SENHA_TENTATIVA[4]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; U11      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; U12      ; 178        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; U13      ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -1400,13 +1382,13 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; U24      ; 283        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U25      ; 285        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; U26      ; 286        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; V1       ; 90         ; 1        ; SW1                                      ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; V2       ; 91         ; 1        ; SW0                                      ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; V3       ; 95         ; 1        ; SW13                                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; V4       ; 94         ; 1        ; SW12                                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; V5       ; 104        ; 1        ; SW16                                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; V6       ; 105        ; 1        ; SENHA_TENTATIVA[2]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; V7       ; 112        ; 1        ; pin_name1                                ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; V1       ; 90         ; 1        ; SW[16]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; V2       ; 91         ; 1        ; SW[17]                                   ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
+; V3       ; 95         ; 1        ; SENHA_TENTATIVA[2]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; V4       ; 94         ; 1        ; SENHA_TENTATIVA[3]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; V5       ; 104        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; V6       ; 105        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; V7       ; 112        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V8       ;            ; 1        ; VCCIO1                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; V9       ; 142        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; V10      ; 141        ; 8        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1426,10 +1408,10 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; V24      ; 276        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V25      ; 277        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V26      ; 278        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; W1       ; 97         ; 1        ; SW4                                      ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; W2       ; 96         ; 1        ; SW3                                      ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; W3       ; 102        ; 1        ; ERROU                                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; W4       ; 101        ; 1        ; SENHA_TENTATIVA[4]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; W1       ; 97         ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; W2       ; 96         ; 1        ; SENHA_SALVA[4]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; W3       ; 102        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; W4       ; 101        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; W5       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; W6       ; 113        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; W7       ;            ;          ; GND_PLL1                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1452,10 +1434,10 @@ The pin-out file can be found in C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/o
 ; W24      ; 271        ; 6        ; HEX3[6]                                  ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; W25      ; 273        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; W26      ; 274        ; 6        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; Y1       ; 103        ; 1        ; SW14                                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; Y1       ; 103        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; Y2       ;            ;          ; NC                                       ;        ;              ;         ; --         ;                 ; --       ; --           ;
-; Y3       ; 108        ; 1        ; SENHA_TENTATIVA[3]                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-; Y4       ; 109        ; 1        ; SENHA_SALVA[4]                           ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
+; Y3       ; 108        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; Y4       ; 109        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; Y5       ; 121        ; 1        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; Y6       ;            ;          ; GND_PLL1                                 ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; Y7       ;            ;          ; VCCD_PLL1                                ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -1524,16 +1506,16 @@ Note: User assignments will override these defaults. The user specified values a
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M4Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                                                               ; Library Name ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+-----------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |bomba_relogio                            ; 309 (8)     ; 121 (7)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 117  ; 0            ; 188 (1)      ; 21 (4)            ; 100 (1)          ; |bomba_relogio                                                                                                                    ; work         ;
+; |bomba_relogio                            ; 311 (8)     ; 121 (7)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 117  ; 0            ; 190 (1)      ; 23 (5)            ; 98 (1)           ; |bomba_relogio                                                                                                                    ; work         ;
 ;    |DicaLEDR:inst24|                      ; 12 (12)     ; 12 (12)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 6 (6)             ; 6 (6)            ; |bomba_relogio|DicaLEDR:inst24                                                                                                    ; work         ;
 ;    |Dicas:inst25|                         ; 12 (12)     ; 12 (12)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 12 (12)          ; |bomba_relogio|Dicas:inst25                                                                                                       ; work         ;
-;    |DisplayTentativa:inst18|              ; 6 (6)       ; 6 (6)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 6 (6)             ; 0 (0)            ; |bomba_relogio|DisplayTentativa:inst18                                                                                            ; work         ;
-;    |comparador_6bits:inst|                ; 5 (5)       ; 2 (2)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 5 (5)            ; |bomba_relogio|comparador_6bits:inst                                                                                              ; work         ;
-;    |controle_senha:inst33|                ; 11 (11)     ; 11 (11)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 4 (4)             ; 7 (7)            ; |bomba_relogio|controle_senha:inst33                                                                                              ; work         ;
+;    |DisplayTentativa:inst18|              ; 6 (6)       ; 6 (6)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 5 (5)             ; 1 (1)            ; |bomba_relogio|DisplayTentativa:inst18                                                                                            ; work         ;
+;    |comparador_6bits:inst|                ; 5 (5)       ; 2 (2)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 3 (3)            ; |bomba_relogio|comparador_6bits:inst                                                                                              ; work         ;
+;    |controle_senha:inst33|                ; 12 (12)     ; 11 (11)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 7 (7)             ; 5 (5)            ; |bomba_relogio|controle_senha:inst33                                                                                              ; work         ;
 ;    |leds_vitoria:inst23|                  ; 48 (48)     ; 27 (27)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 21 (21)      ; 0 (0)             ; 27 (27)          ; |bomba_relogio|leds_vitoria:inst23                                                                                                ; work         ;
-;    |mux_ledr:inst12|                      ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 1 (1)            ; |bomba_relogio|mux_ledr:inst12                                                                                                    ; work         ;
-;    |temporizador:inst7|                   ; 165 (42)    ; 20 (20)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 145 (22)     ; 1 (1)             ; 19 (18)          ; |bomba_relogio|temporizador:inst7                                                                                                 ; work         ;
-;       |hex7seg:h0|                        ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 6 (6)        ; 0 (0)             ; 1 (1)            ; |bomba_relogio|temporizador:inst7|hex7seg:h0                                                                                      ; work         ;
+;    |mux_ledr:inst12|                      ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |bomba_relogio|mux_ledr:inst12                                                                                                    ; work         ;
+;    |temporizador:inst7|                   ; 164 (40)    ; 20 (20)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 144 (21)     ; 0 (0)             ; 20 (19)          ; |bomba_relogio|temporizador:inst7                                                                                                 ; work         ;
+;       |hex7seg:h0|                        ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|hex7seg:h0                                                                                      ; work         ;
 ;       |hex7seg:h1|                        ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|hex7seg:h1                                                                                      ; work         ;
 ;       |hex7seg:h2|                        ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|hex7seg:h2                                                                                      ; work         ;
 ;       |hex7seg:h3|                        ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|hex7seg:h3                                                                                      ; work         ;
@@ -1541,10 +1523,10 @@ Note: User assignments will override these defaults. The user specified values a
 ;          |lpm_divide_vcm:auto_generated|  ; 30 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 30 (0)       ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated                                                   ; work         ;
 ;             |sign_div_unsign_9kh:divider| ; 30 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 30 (0)       ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider                       ; work         ;
 ;                |alt_u_div_kve:divider|    ; 30 (30)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 30 (30)      ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider ; work         ;
-;       |lpm_divide:Mod0|                   ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (0)       ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0                                                                                 ; work         ;
-;          |lpm_divide_25m:auto_generated|  ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (0)       ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated                                                   ; work         ;
-;             |sign_div_unsign_9kh:divider| ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (0)       ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider                       ; work         ;
-;                |alt_u_div_kve:divider|    ; 33 (33)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (33)      ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider ; work         ;
+;       |lpm_divide:Mod0|                   ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 32 (0)       ; 0 (0)             ; 1 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0                                                                                 ; work         ;
+;          |lpm_divide_25m:auto_generated|  ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 32 (0)       ; 0 (0)             ; 1 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated                                                   ; work         ;
+;             |sign_div_unsign_9kh:divider| ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 32 (0)       ; 0 (0)             ; 1 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider                       ; work         ;
+;                |alt_u_div_kve:divider|    ; 33 (33)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 32 (32)      ; 0 (0)             ; 1 (1)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider ; work         ;
 ;       |lpm_divide:Mod1|                   ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (0)       ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod1                                                                                 ; work         ;
 ;          |lpm_divide_25m:auto_generated|  ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (0)       ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated                                                   ; work         ;
 ;             |sign_div_unsign_9kh:divider| ; 33 (0)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 33 (0)       ; 0 (0)             ; 0 (0)            ; |bomba_relogio|temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider                       ; work         ;
@@ -1560,6 +1542,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name               ; Pin Type ; Pad to Core 0 ; Pad to Core 1 ; Pad to Input Register ; TCO ;
 +--------------------+----------+---------------+---------------+-----------------------+-----+
 ; ERROU              ; Output   ; --            ; --            ; --                    ; --  ;
+; SW[11]             ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
+; SW[10]             ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
+; SW[9]              ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[8]              ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
 ; ACERTOU            ; Output   ; --            ; --            ; --                    ; --  ;
 ; pin_name1          ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX0[6]            ; Output   ; --            ; --            ; --                    ; --  ;
@@ -1657,147 +1643,73 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SENHA_TENTATIVA[2] ; Output   ; --            ; --            ; --                    ; --  ;
 ; SENHA_TENTATIVA[1] ; Output   ; --            ; --            ; --                    ; --  ;
 ; SENHA_TENTATIVA[0] ; Output   ; --            ; --            ; --                    ; --  ;
-; SW11               ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW10               ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW9                ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
-; SW8                ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
-; KEY3               ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; KEY0               ; Input    ; (6) 2514 ps   ; (6) 2514 ps   ; --                    ; --  ;
-; SW5                ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW4                ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW3                ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW2                ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW1                ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW0                ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW17               ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW16               ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW15               ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW14               ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW13               ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
-; SW12               ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; SW[7]              ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[6]              ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[5]              ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[4]              ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[3]              ; Input    ; (0) 170 ps    ; (0) 170 ps    ; --                    ; --  ;
+; SW[2]              ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
+; SW[1]              ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
+; SW[0]              ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
 ; CLOCK_50           ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
+; SW[17]             ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; SW[16]             ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; SW[15]             ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; SW[14]             ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; SW[13]             ; Input    ; (6) 2523 ps   ; (6) 2523 ps   ; --                    ; --  ;
+; SW[12]             ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
 +--------------------+----------+---------------+---------------+-----------------------+-----+
 
 
-+----------------------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                                         ;
-+----------------------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                                      ; Pad To Core Index ; Setting ;
-+----------------------------------------------------------+-------------------+---------+
-; SW11                                                     ;                   ;         ;
-; SW10                                                     ;                   ;         ;
-; SW9                                                      ;                   ;         ;
-; SW8                                                      ;                   ;         ;
-; KEY3                                                     ;                   ;         ;
-;      - DisplayTentativa:inst18|tentativa_atual[0]        ; 0                 ; 6       ;
-;      - DisplayTentativa:inst18|tentativa_atual[1]        ; 0                 ; 6       ;
-;      - DisplayTentativa:inst18|tentativa_atual[2]        ; 0                 ; 6       ;
-;      - DisplayTentativa:inst18|tentativa_atual[3]        ; 0                 ; 6       ;
-;      - DisplayTentativa:inst18|tentativa_atual[4]        ; 0                 ; 6       ;
-;      - DisplayTentativa:inst18|tentativa_atual[5]        ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result[4]                         ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result[3]                         ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result[2]                         ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result[1]                         ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result[0]                         ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result[5]                         ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result[0]                        ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result[1]                        ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result[2]                        ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result[3]                        ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result[4]                        ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result[5]                        ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao[5]                     ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao[4]                     ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao[3]                     ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao[2]                     ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao[1]                     ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao[0]                     ; 0                 ; 6       ;
-;      - controle_senha:inst33|enter_btn_old               ; 0                 ; 6       ;
-;      - controle_senha:inst33|always0~0                   ; 0                 ; 6       ;
-;      - controle_senha:inst33|always0~1                   ; 0                 ; 6       ;
-;      - LEDG[1]                                           ; 0                 ; 6       ;
-; KEY0                                                     ;                   ;         ;
-;      - inst19                                            ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|senha_reg[5]                      ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|senha_reg[4]                      ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|senha_reg[3]                      ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|senha_reg[2]                      ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|senha_reg[1]                      ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|senha_reg[0]                      ; 0                 ; 6       ;
-;      - controle_senha:inst33|start_btn_old               ; 0                 ; 6       ;
-;      - controle_senha:inst33|always0~2                   ; 0                 ; 6       ;
-;      - LEDG[0]                                           ; 0                 ; 6       ;
-; SW5                                                      ;                   ;         ;
-;      - inst1                                             ; 0                 ; 6       ;
-;      - DisplayTentativa:inst18|tentativa_atual[5]        ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result~0                          ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result~0                         ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao~0                      ; 0                 ; 6       ;
-; SW4                                                      ;                   ;         ;
-;      - DisplayTentativa:inst18|tentativa_atual[4]        ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result~1                          ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result~1                         ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao~1                      ; 0                 ; 6       ;
-;      - inst2~feeder                                      ; 0                 ; 6       ;
-; SW3                                                      ;                   ;         ;
-;      - inst3                                             ; 1                 ; 6       ;
-;      - Dicas:inst25|or_result~2                          ; 1                 ; 6       ;
-;      - Dicas:inst25|and_result~2                         ; 1                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao~2                      ; 1                 ; 6       ;
-;      - DisplayTentativa:inst18|tentativa_atual[3]~feeder ; 1                 ; 6       ;
-; SW2                                                      ;                   ;         ;
-;      - DisplayTentativa:inst18|tentativa_atual[2]        ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result~3                          ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result~3                         ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao~3                      ; 0                 ; 6       ;
-;      - inst5~feeder                                      ; 1                 ; 6       ;
-; SW1                                                      ;                   ;         ;
-;      - Dicas:inst25|or_result~4                          ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result~4                         ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao~4                      ; 0                 ; 6       ;
-;      - DisplayTentativa:inst18|tentativa_atual[1]~feeder ; 0                 ; 6       ;
-;      - inst9~feeder                                      ; 0                 ; 6       ;
-; SW0                                                      ;                   ;         ;
-;      - DisplayTentativa:inst18|tentativa_atual[0]        ; 0                 ; 6       ;
-;      - Dicas:inst25|or_result~5                          ; 0                 ; 6       ;
-;      - Dicas:inst25|and_result~5                         ; 0                 ; 6       ;
-;      - DicaLEDR:inst24|comparacao~5                      ; 0                 ; 6       ;
-;      - inst10~feeder                                     ; 0                 ; 6       ;
-; SW17                                                     ;                   ;         ;
-;      - controle_senha:inst33|SENHA[5]~feeder             ; 0                 ; 6       ;
-; SW16                                                     ;                   ;         ;
-;      - controle_senha:inst33|SENHA[4]~feeder             ; 1                 ; 6       ;
-; SW15                                                     ;                   ;         ;
-;      - controle_senha:inst33|SENHA[3]~feeder             ; 0                 ; 6       ;
-; SW14                                                     ;                   ;         ;
-;      - controle_senha:inst33|SENHA[2]                    ; 0                 ; 6       ;
-; SW13                                                     ;                   ;         ;
-;      - controle_senha:inst33|SENHA[1]                    ; 0                 ; 6       ;
-; SW12                                                     ;                   ;         ;
-;      - controle_senha:inst33|SENHA[0]                    ; 0                 ; 6       ;
-; CLOCK_50                                                 ;                   ;         ;
-+----------------------------------------------------------+-------------------+---------+
++----------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                             ;
++----------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                          ; Pad To Core Index ; Setting ;
++----------------------------------------------+-------------------+---------+
+; SW[11]                                       ;                   ;         ;
+; SW[10]                                       ;                   ;         ;
+; SW[9]                                        ;                   ;         ;
+; SW[8]                                        ;                   ;         ;
+; SW[7]                                        ;                   ;         ;
+; SW[6]                                        ;                   ;         ;
+; SW[5]                                        ;                   ;         ;
+; SW[4]                                        ;                   ;         ;
+; SW[3]                                        ;                   ;         ;
+; SW[2]                                        ;                   ;         ;
+; SW[1]                                        ;                   ;         ;
+; SW[0]                                        ;                   ;         ;
+; CLOCK_50                                     ;                   ;         ;
+; SW[17]                                       ;                   ;         ;
+;      - controle_senha:inst33|SENHA[5]~feeder ; 1                 ; 6       ;
+; SW[16]                                       ;                   ;         ;
+;      - controle_senha:inst33|SENHA[4]        ; 1                 ; 6       ;
+; SW[15]                                       ;                   ;         ;
+;      - controle_senha:inst33|SENHA[3]~feeder ; 1                 ; 6       ;
+; SW[14]                                       ;                   ;         ;
+;      - controle_senha:inst33|SENHA[2]        ; 0                 ; 6       ;
+; SW[13]                                       ;                   ;         ;
+;      - controle_senha:inst33|SENHA[1]~feeder ; 0                 ; 6       ;
+; SW[12]                                       ;                   ;         ;
++----------------------------------------------+-------------------+---------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Control Signals                                                                                                                                                               ;
-+-------------------------------------+-------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
-; Name                                ; Location          ; Fan-Out ; Usage                      ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
-+-------------------------------------+-------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
-; CLOCK_50                            ; PIN_N2            ; 24      ; Clock                      ; yes    ; Global Clock         ; GCLK2            ; --                        ;
-; KEY0                                ; PIN_AF9           ; 10      ; Async. clear, Clock enable ; no     ; --                   ; --               ; --                        ;
-; KEY3                                ; PIN_AF6           ; 28      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; comparador_6bits:inst|senha_correta ; LCFF_X1_Y9_N27    ; 11      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; comparador_6bits:inst|senha_errada  ; LCFF_X1_Y9_N5     ; 7       ; Async. clear               ; no     ; --                   ; --               ; --                        ;
-; controle_senha:inst33|always0~2     ; LCCOMB_X2_Y11_N8  ; 8       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; leds_vitoria:inst23|ativo           ; LCFF_X14_Y13_N9   ; 26      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; temporizador:inst7|dec[3]~3         ; LCCOMB_X56_Y5_N4  ; 4       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; temporizador:inst7|min[0]~10        ; LCCOMB_X59_Y5_N22 ; 6       ; Sync. load                 ; no     ; --                   ; --               ; --                        ;
-; temporizador:inst7|min[0]~21        ; LCCOMB_X59_Y5_N0  ; 6       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; temporizador:inst7|sec[5]~4         ; LCCOMB_X59_Y5_N30 ; 5       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
-; tick_generator:inst14|clkout        ; LCFF_X31_Y32_N21  ; 97      ; Clock                      ; yes    ; Global Clock         ; GCLK9            ; --                        ;
-+-------------------------------------+-------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
++------------------------------------+--------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
+; Name                               ; Location           ; Fan-Out ; Usage                      ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
++------------------------------------+--------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
+; CLOCK_50                           ; PIN_N2             ; 51      ; Clock                      ; yes    ; Global Clock         ; GCLK2            ; --                        ;
+; SW[6]                              ; PIN_AC13           ; 10      ; Async. clear, Clock enable ; no     ; --                   ; --               ; --                        ;
+; SW[7]                              ; PIN_C13            ; 28      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; comparador_6bits:inst|senha_errada ; LCFF_X7_Y19_N17    ; 7       ; Async. clear               ; no     ; --                   ; --               ; --                        ;
+; controle_senha:inst33|always0~2    ; LCCOMB_X10_Y19_N16 ; 8       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; leds_vitoria:inst23|ativo          ; LCFF_X15_Y19_N7    ; 27      ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; temporizador:inst7|dec[3]~3        ; LCCOMB_X43_Y25_N6  ; 4       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; temporizador:inst7|min[0]~8        ; LCCOMB_X44_Y25_N6  ; 6       ; Sync. load                 ; no     ; --                   ; --               ; --                        ;
+; temporizador:inst7|min[0]~9        ; LCCOMB_X44_Y25_N30 ; 6       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; temporizador:inst7|sec[5]~1        ; LCCOMB_X44_Y25_N20 ; 5       ; Clock enable               ; no     ; --                   ; --               ; --                        ;
+; tick_generator:inst14|clkout       ; LCFF_X34_Y22_N23   ; 70      ; Clock                      ; yes    ; Global Clock         ; GCLK11           ; --                        ;
++------------------------------------+--------------------+---------+----------------------------+--------+----------------------+------------------+---------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------+
@@ -1805,8 +1717,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------+------------------+---------+----------------------+------------------+---------------------------+
 ; Name                         ; Location         ; Fan-Out ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------------------------------+------------------+---------+----------------------+------------------+---------------------------+
-; CLOCK_50                     ; PIN_N2           ; 24      ; Global Clock         ; GCLK2            ; --                        ;
-; tick_generator:inst14|clkout ; LCFF_X31_Y32_N21 ; 97      ; Global Clock         ; GCLK9            ; --                        ;
+; CLOCK_50                     ; PIN_N2           ; 51      ; Global Clock         ; GCLK2            ; --                        ;
+; tick_generator:inst14|clkout ; LCFF_X34_Y22_N23 ; 70      ; Global Clock         ; GCLK11           ; --                        ;
 +------------------------------+------------------+---------+----------------------+------------------+---------------------------+
 
 
@@ -1815,37 +1727,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------------------------------------------------------------------------------------------------+---------+
 ; Name                                                                                                                                         ; Fan-Out ;
 +----------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; KEY3                                                                                                                                         ; 28      ;
-; leds_vitoria:inst23|ativo                                                                                                                    ; 26      ;
+; SW[7]                                                                                                                                        ; 28      ;
+; leds_vitoria:inst23|ativo                                                                                                                    ; 27      ;
 ; temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_3_result_int[4]~6 ; 17      ;
+; temporizador:inst7|start_edge                                                                                                                ; 15      ;
+; inst19                                                                                                                                       ; 15      ;
 ; temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_4_result_int[5]~8 ; 15      ;
 ; leds_vitoria:inst23|Equal0~6                                                                                                                 ; 14      ;
 ; leds_vitoria:inst23|Equal0~5                                                                                                                 ; 14      ;
 ; leds_vitoria:inst23|Equal0~4                                                                                                                 ; 14      ;
-; temporizador:inst7|start_edge                                                                                                                ; 13      ;
+; temporizador:inst7|derrota                                                                                                                   ; 13      ;
 ; mux_ledr:inst12|LEDR[17]~0                                                                                                                   ; 12      ;
 ; temporizador:inst7|dec[0]                                                                                                                    ; 12      ;
-; temporizador:inst7|derrota                                                                                                                   ; 11      ;
 ; temporizador:inst7|dec[1]                                                                                                                    ; 11      ;
-; comparador_6bits:inst|senha_correta                                                                                                          ; 11      ;
 ; temporizador:inst7|min[0]                                                                                                                    ; 11      ;
-; KEY0                                                                                                                                         ; 10      ;
+; SW[6]                                                                                                                                        ; 10      ;
 ; temporizador:inst7|dec[2]                                                                                                                    ; 10      ;
 ; temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_3_result_int[4]~6 ; 10      ;
 ; temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_3_result_int[4]~6 ; 10      ;
 ; tick_generator:inst14|Equal0~6                                                                                                               ; 9       ;
+; tick_generator:inst14|Equal0~5                                                                                                               ; 9       ;
 ; tick_generator:inst14|Equal0~4                                                                                                               ; 9       ;
-; temporizador:inst7|Equal1~1                                                                                                                  ; 9       ;
 ; temporizador:inst7|sec[2]                                                                                                                    ; 9       ;
 ; temporizador:inst7|sec[0]                                                                                                                    ; 9       ;
 ; temporizador:inst7|dec[3]                                                                                                                    ; 9       ;
 ; controle_senha:inst33|always0~2                                                                                                              ; 8       ;
+; temporizador:inst7|Equal1~1                                                                                                                  ; 8       ;
+; temporizador:inst7|Equal0~0                                                                                                                  ; 8       ;
 ; temporizador:inst7|sec[3]                                                                                                                    ; 8       ;
 ; temporizador:inst7|sec[4]                                                                                                                    ; 8       ;
 ; temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_4_result_int[5]~8 ; 8       ;
 ; temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_4_result_int[5]~8 ; 8       ;
-; temporizador:inst7|start_sync_0                                                                                                              ; 7       ;
-; temporizador:inst7|Equal0~0                                                                                                                  ; 7       ;
 ; leds_vitoria:inst23|LEDR[11]                                                                                                                 ; 7       ;
 ; temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|StageOut[28]~32           ; 7       ;
 ; temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|StageOut[27]~31           ; 7       ;
@@ -1857,25 +1769,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; comparador_6bits:inst|senha_errada                                                                                                           ; 7       ;
 ; temporizador:inst7|min[1]                                                                                                                    ; 7       ;
 ; temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_5_result_int[5]~8 ; 7       ;
-; temporizador:inst7|min[0]~21                                                                                                                 ; 6       ;
-; temporizador:inst7|min[0]~10                                                                                                                 ; 6       ;
-; temporizador:inst7|start_sync_1                                                                                                              ; 6       ;
-; inst19                                                                                                                                       ; 6       ;
+; temporizador:inst7|min[0]~9                                                                                                                  ; 6       ;
+; temporizador:inst7|min[0]~8                                                                                                                  ; 6       ;
+; temporizador:inst7|congelado                                                                                                                 ; 6       ;
 ; temporizador:inst7|sec[5]                                                                                                                    ; 6       ;
-; SW0                                                                                                                                          ; 5       ;
-; SW1                                                                                                                                          ; 5       ;
-; SW2                                                                                                                                          ; 5       ;
-; SW3                                                                                                                                          ; 5       ;
-; SW4                                                                                                                                          ; 5       ;
-; SW5                                                                                                                                          ; 5       ;
-; temporizador:inst7|sec[5]~4                                                                                                                  ; 5       ;
-; temporizador:inst7|sec~2                                                                                                                     ; 5       ;
-; temporizador:inst7|congelado                                                                                                                 ; 5       ;
+; SW[0]                                                                                                                                        ; 5       ;
+; SW[1]                                                                                                                                        ; 5       ;
+; SW[2]                                                                                                                                        ; 5       ;
+; SW[3]                                                                                                                                        ; 5       ;
+; SW[4]                                                                                                                                        ; 5       ;
+; SW[5]                                                                                                                                        ; 5       ;
+; temporizador:inst7|sec[5]~1                                                                                                                  ; 5       ;
+; temporizador:inst7|Equal2~1                                                                                                                  ; 5       ;
+; temporizador:inst7|start_sync_0                                                                                                              ; 5       ;
 ; temporizador:inst7|min[2]                                                                                                                    ; 5       ;
 ; temporizador:inst7|min[3]                                                                                                                    ; 5       ;
 ; temporizador:inst7|min[4]                                                                                                                    ; 5       ;
 ; ~GND                                                                                                                                         ; 4       ;
 ; temporizador:inst7|dec[3]~3                                                                                                                  ; 4       ;
+; temporizador:inst7|start_sync_1                                                                                                              ; 4       ;
 ; temporizador:inst7|min[5]                                                                                                                    ; 4       ;
 ; DicaLEDR:inst24|senha_reg[0]                                                                                                                 ; 3       ;
 ; DicaLEDR:inst24|senha_reg[1]                                                                                                                 ; 3       ;
@@ -1892,6 +1804,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; controle_senha:inst33|SENHA[3]                                                                                                               ; 3       ;
 ; controle_senha:inst33|SENHA[4]                                                                                                               ; 3       ;
 ; controle_senha:inst33|SENHA[5]                                                                                                               ; 3       ;
+; comparador_6bits:inst|senha_correta                                                                                                          ; 3       ;
 ; temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_5_result_int[5]~8 ; 3       ;
 ; temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_5_result_int[5]~8 ; 3       ;
 ; temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|StageOut[22]~34           ; 2       ;
@@ -1944,7 +1857,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; tick_generator:inst14|contador[9]                                                                                                            ; 2       ;
 ; tick_generator:inst14|contador[11]                                                                                                           ; 2       ;
 ; leds_vitoria:inst23|pisca                                                                                                                    ; 2       ;
-; temporizador:inst7|sec[5]~9                                                                                                                  ; 2       ;
+; temporizador:inst7|derrota~1                                                                                                                 ; 2       ;
 ; controle_senha:inst33|bloqueado                                                                                                              ; 2       ;
 ; controle_senha:inst33|senha_gravada                                                                                                          ; 2       ;
 ; controle_senha:inst33|enter_btn_old                                                                                                          ; 2       ;
@@ -1970,15 +1883,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_3_result_int[1]~0 ; 2       ;
 ; temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_3_result_int[2]~2 ; 2       ;
 ; temporizador:inst7|lpm_divide:Mod1|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|add_sub_3_result_int[1]~0 ; 2       ;
-; leds_vitoria:inst23|ativo~feeder                                                                                                             ; 1       ;
 ; controle_senha:inst33|senha_gravada~feeder                                                                                                   ; 1       ;
-; inst19~feeder                                                                                                                                ; 1       ;
-; SW12                                                                                                                                         ; 1       ;
-; SW13                                                                                                                                         ; 1       ;
-; SW14                                                                                                                                         ; 1       ;
-; SW15                                                                                                                                         ; 1       ;
-; SW16                                                                                                                                         ; 1       ;
-; SW17                                                                                                                                         ; 1       ;
+; SW[12]                                                                                                                                       ; 1       ;
+; SW[13]                                                                                                                                       ; 1       ;
+; SW[14]                                                                                                                                       ; 1       ;
+; SW[15]                                                                                                                                       ; 1       ;
+; SW[16]                                                                                                                                       ; 1       ;
+; SW[17]                                                                                                                                       ; 1       ;
 ; temporizador:inst7|lpm_divide:Mod0|lpm_divide_25m:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|StageOut[23]~33           ; 1       ;
 ; temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|StageOut[22]~31           ; 1       ;
 ; temporizador:inst7|lpm_divide:Div1|lpm_divide_vcm:auto_generated|sign_div_unsign_9kh:divider|alt_u_div_kve:divider|StageOut[23]~30           ; 1       ;
@@ -1986,7 +1897,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; leds_vitoria:inst23|contador~18                                                                                                              ; 1       ;
 ; leds_vitoria:inst23|contador~17                                                                                                              ; 1       ;
 ; leds_vitoria:inst23|contador~16                                                                                                              ; 1       ;
-; temporizador:inst7|sec~11                                                                                                                    ; 1       ;
 ; temporizador:inst7|dec~7                                                                                                                     ; 1       ;
 ; leds_vitoria:inst23|contador~15                                                                                                              ; 1       ;
 ; leds_vitoria:inst23|contador~14                                                                                                              ; 1       ;
@@ -2006,6 +1916,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; tick_generator:inst14|contador~2                                                                                                             ; 1       ;
 ; tick_generator:inst14|contador~1                                                                                                             ; 1       ;
 ; tick_generator:inst14|contador~0                                                                                                             ; 1       ;
+; leds_vitoria:inst23|ativo~0                                                                                                                  ; 1       ;
 ; leds_vitoria:inst23|pisca~0                                                                                                                  ; 1       ;
 ; leds_vitoria:inst23|Equal0~7                                                                                                                 ; 1       ;
 ; leds_vitoria:inst23|Equal0~3                                                                                                                 ; 1       ;
@@ -2015,7 +1926,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; temporizador:inst7|congelado~0                                                                                                               ; 1       ;
 ; controle_senha:inst33|bloqueado~0                                                                                                            ; 1       ;
 ; tick_generator:inst14|Equal0~7                                                                                                               ; 1       ;
-; tick_generator:inst14|Equal0~5                                                                                                               ; 1       ;
 ; tick_generator:inst14|Equal0~3                                                                                                               ; 1       ;
 ; tick_generator:inst14|Equal0~2                                                                                                               ; 1       ;
 ; tick_generator:inst14|Equal0~1                                                                                                               ; 1       ;
@@ -2028,8 +1938,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; DicaLEDR:inst24|comparacao~1                                                                                                                 ; 1       ;
 ; DicaLEDR:inst24|comparacao~0                                                                                                                 ; 1       ;
 ; temporizador:inst7|derrota~2                                                                                                                 ; 1       ;
-; temporizador:inst7|derrota~1                                                                                                                 ; 1       ;
 ; leds_vitoria:inst23|LEDR~0                                                                                                                   ; 1       ;
+; inst19~0                                                                                                                                     ; 1       ;
 ; Dicas:inst25|and_result~5                                                                                                                    ; 1       ;
 ; Dicas:inst25|and_result~4                                                                                                                    ; 1       ;
 ; Dicas:inst25|and_result~3                                                                                                                    ; 1       ;
@@ -2042,12 +1952,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Dicas:inst25|or_result~2                                                                                                                     ; 1       ;
 ; Dicas:inst25|or_result~1                                                                                                                     ; 1       ;
 ; Dicas:inst25|or_result~0                                                                                                                     ; 1       ;
-; temporizador:inst7|sec~10                                                                                                                    ; 1       ;
 ; temporizador:inst7|sec~8                                                                                                                     ; 1       ;
 ; temporizador:inst7|sec~7                                                                                                                     ; 1       ;
 ; temporizador:inst7|sec~6                                                                                                                     ; 1       ;
 ; temporizador:inst7|sec~5                                                                                                                     ; 1       ;
+; temporizador:inst7|sec~4                                                                                                                     ; 1       ;
 ; temporizador:inst7|sec~3                                                                                                                     ; 1       ;
+; temporizador:inst7|sec~2                                                                                                                     ; 1       ;
+; temporizador:inst7|sec~0                                                                                                                     ; 1       ;
 ; temporizador:inst7|dec~6                                                                                                                     ; 1       ;
 ; temporizador:inst7|dec~5                                                                                                                     ; 1       ;
 ; temporizador:inst7|Add2~0                                                                                                                    ; 1       ;
@@ -2243,17 +2155,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; tick_generator:inst14|Add0~2                                                                                                                 ; 1       ;
 ; tick_generator:inst14|Add0~1                                                                                                                 ; 1       ;
 ; tick_generator:inst14|Add0~0                                                                                                                 ; 1       ;
-; temporizador:inst7|min[5]~19                                                                                                                 ; 1       ;
-; temporizador:inst7|min[4]~18                                                                                                                 ; 1       ;
+; temporizador:inst7|min[5]~18                                                                                                                 ; 1       ;
 ; temporizador:inst7|min[4]~17                                                                                                                 ; 1       ;
-; temporizador:inst7|min[3]~16                                                                                                                 ; 1       ;
+; temporizador:inst7|min[4]~16                                                                                                                 ; 1       ;
 ; temporizador:inst7|min[3]~15                                                                                                                 ; 1       ;
-; temporizador:inst7|min[2]~14                                                                                                                 ; 1       ;
+; temporizador:inst7|min[3]~14                                                                                                                 ; 1       ;
 ; temporizador:inst7|min[2]~13                                                                                                                 ; 1       ;
-; temporizador:inst7|min[1]~12                                                                                                                 ; 1       ;
+; temporizador:inst7|min[2]~12                                                                                                                 ; 1       ;
 ; temporizador:inst7|min[1]~11                                                                                                                 ; 1       ;
-; temporizador:inst7|min[0]~9                                                                                                                  ; 1       ;
-; temporizador:inst7|min[0]~8                                                                                                                  ; 1       ;
+; temporizador:inst7|min[1]~10                                                                                                                 ; 1       ;
+; temporizador:inst7|min[0]~7                                                                                                                  ; 1       ;
+; temporizador:inst7|min[0]~6                                                                                                                  ; 1       ;
 ; temporizador:inst7|Add1~10                                                                                                                   ; 1       ;
 ; temporizador:inst7|Add1~9                                                                                                                    ; 1       ;
 ; temporizador:inst7|Add1~8                                                                                                                    ; 1       ;
@@ -2324,35 +2236,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+------------------------+
 ; Other Routing Resource Type ; Usage                  ;
 +-----------------------------+------------------------+
-; Block interconnects         ; 292 / 94,460 ( < 1 % ) ;
-; C16 interconnects           ; 13 / 3,315 ( < 1 % )   ;
-; C4 interconnects            ; 154 / 60,840 ( < 1 % ) ;
-; Direct links                ; 108 / 94,460 ( < 1 % ) ;
+; Block interconnects         ; 299 / 94,460 ( < 1 % ) ;
+; C16 interconnects           ; 27 / 3,315 ( < 1 % )   ;
+; C4 interconnects            ; 223 / 60,840 ( < 1 % ) ;
+; Direct links                ; 102 / 94,460 ( < 1 % ) ;
 ; Global clocks               ; 2 / 16 ( 13 % )        ;
-; Local interconnects         ; 180 / 33,216 ( < 1 % ) ;
-; R24 interconnects           ; 31 / 3,091 ( 1 % )     ;
-; R4 interconnects            ; 154 / 81,294 ( < 1 % ) ;
+; Local interconnects         ; 170 / 33,216 ( < 1 % ) ;
+; R24 interconnects           ; 45 / 3,091 ( 1 % )     ;
+; R4 interconnects            ; 297 / 81,294 ( < 1 % ) ;
 +-----------------------------+------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 12.36) ; Number of LABs  (Total = 25) ;
+; Number of Logic Elements  (Average = 12.44) ; Number of LABs  (Total = 25) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 2                            ;
-; 2                                           ; 0                            ;
+; 1                                           ; 1                            ;
+; 2                                           ; 1                            ;
 ; 3                                           ; 0                            ;
 ; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
-; 6                                           ; 1                            ;
-; 7                                           ; 3                            ;
+; 6                                           ; 0                            ;
+; 7                                           ; 4                            ;
 ; 8                                           ; 0                            ;
-; 9                                           ; 1                            ;
+; 9                                           ; 0                            ;
 ; 10                                          ; 1                            ;
-; 11                                          ; 0                            ;
+; 11                                          ; 2                            ;
 ; 12                                          ; 1                            ;
-; 13                                          ; 1                            ;
+; 13                                          ; 0                            ;
 ; 14                                          ; 1                            ;
 ; 15                                          ; 2                            ;
 ; 16                                          ; 12                           ;
@@ -2362,49 +2274,49 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.12) ; Number of LABs  (Total = 25) ;
+; LAB-wide Signals  (Average = 0.92) ; Number of LABs  (Total = 25) ;
 +------------------------------------+------------------------------+
 ; 1 Async. clear                     ; 1                            ;
-; 1 Clock                            ; 16                           ;
-; 1 Clock enable                     ; 10                           ;
-; 2 Clock enables                    ; 1                            ;
+; 1 Clock                            ; 13                           ;
+; 1 Clock enable                     ; 8                            ;
+; 2 Clocks                           ; 1                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 16.64) ; Number of LABs  (Total = 25) ;
+; Number of Signals Sourced  (Average = 16.72) ; Number of LABs  (Total = 25) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 0                            ;
-; 2                                            ; 2                            ;
+; 1                                            ; 1                            ;
+; 2                                            ; 0                            ;
 ; 3                                            ; 0                            ;
-; 4                                            ; 0                            ;
+; 4                                            ; 1                            ;
 ; 5                                            ; 0                            ;
 ; 6                                            ; 1                            ;
-; 7                                            ; 3                            ;
+; 7                                            ; 2                            ;
 ; 8                                            ; 0                            ;
-; 9                                            ; 0                            ;
-; 10                                           ; 0                            ;
-; 11                                           ; 0                            ;
-; 12                                           ; 1                            ;
+; 9                                            ; 1                            ;
+; 10                                           ; 1                            ;
+; 11                                           ; 1                            ;
+; 12                                           ; 0                            ;
 ; 13                                           ; 1                            ;
-; 14                                           ; 2                            ;
+; 14                                           ; 1                            ;
 ; 15                                           ; 4                            ;
 ; 16                                           ; 0                            ;
-; 17                                           ; 1                            ;
+; 17                                           ; 0                            ;
 ; 18                                           ; 0                            ;
 ; 19                                           ; 0                            ;
 ; 20                                           ; 0                            ;
-; 21                                           ; 1                            ;
-; 22                                           ; 1                            ;
-; 23                                           ; 1                            ;
-; 24                                           ; 1                            ;
+; 21                                           ; 0                            ;
+; 22                                           ; 2                            ;
+; 23                                           ; 2                            ;
+; 24                                           ; 2                            ;
 ; 25                                           ; 0                            ;
-; 26                                           ; 2                            ;
-; 27                                           ; 2                            ;
-; 28                                           ; 1                            ;
+; 26                                           ; 1                            ;
+; 27                                           ; 3                            ;
+; 28                                           ; 0                            ;
 ; 29                                           ; 0                            ;
 ; 30                                           ; 0                            ;
 ; 31                                           ; 1                            ;
@@ -2414,49 +2326,51 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 7.60) ; Number of LABs  (Total = 25) ;
+; Number of Signals Sourced Out  (Average = 8.36) ; Number of LABs  (Total = 25) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
 ; 1                                               ; 2                            ;
 ; 2                                               ; 1                            ;
-; 3                                               ; 3                            ;
+; 3                                               ; 1                            ;
 ; 4                                               ; 0                            ;
-; 5                                               ; 1                            ;
-; 6                                               ; 2                            ;
-; 7                                               ; 6                            ;
-; 8                                               ; 0                            ;
-; 9                                               ; 2                            ;
-; 10                                              ; 0                            ;
+; 5                                               ; 2                            ;
+; 6                                               ; 1                            ;
+; 7                                               ; 5                            ;
+; 8                                               ; 2                            ;
+; 9                                               ; 1                            ;
+; 10                                              ; 1                            ;
 ; 11                                              ; 2                            ;
-; 12                                              ; 2                            ;
-; 13                                              ; 3                            ;
-; 14                                              ; 0                            ;
+; 12                                              ; 4                            ;
+; 13                                              ; 0                            ;
+; 14                                              ; 1                            ;
 ; 15                                              ; 1                            ;
+; 16                                              ; 0                            ;
+; 17                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                        ;
 +---------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 8.44) ; Number of LABs  (Total = 25) ;
+; Number of Distinct Inputs  (Average = 8.40) ; Number of LABs  (Total = 25) ;
 +---------------------------------------------+------------------------------+
 ; 0                                           ; 0                            ;
 ; 1                                           ; 0                            ;
-; 2                                           ; 1                            ;
-; 3                                           ; 2                            ;
-; 4                                           ; 2                            ;
-; 5                                           ; 4                            ;
-; 6                                           ; 1                            ;
+; 2                                           ; 0                            ;
+; 3                                           ; 0                            ;
+; 4                                           ; 4                            ;
+; 5                                           ; 2                            ;
+; 6                                           ; 3                            ;
 ; 7                                           ; 2                            ;
-; 8                                           ; 3                            ;
+; 8                                           ; 7                            ;
 ; 9                                           ; 1                            ;
-; 10                                          ; 2                            ;
-; 11                                          ; 2                            ;
-; 12                                          ; 1                            ;
-; 13                                          ; 0                            ;
-; 14                                          ; 1                            ;
-; 15                                          ; 0                            ;
-; 16                                          ; 1                            ;
+; 10                                          ; 1                            ;
+; 11                                          ; 1                            ;
+; 12                                          ; 0                            ;
+; 13                                          ; 1                            ;
+; 14                                          ; 0                            ;
+; 15                                          ; 1                            ;
+; 16                                          ; 0                            ;
 ; 17                                          ; 0                            ;
 ; 18                                          ; 1                            ;
 ; 19                                          ; 0                            ;
@@ -2509,7 +2423,7 @@ Info (169124): Fitter converted 3 user pins into dedicated programming pins
     Info (169125): Pin ~ASDO~ is reserved at location E3
     Info (169125): Pin ~nCSO~ is reserved at location D3
     Info (169125): Pin ~LVDS150p/nCEO~ is reserved at location AE24
-Critical Warning (169085): No exact pin location assignment(s) for 33 pins of 117 total pins
+Critical Warning (169085): No exact pin location assignment(s) for 15 pins of 117 total pins
     Info (169086): Pin ERROU not assigned to an exact location on the device
     Info (169086): Pin ACERTOU not assigned to an exact location on the device
     Info (169086): Pin pin_name1 not assigned to an exact location on the device
@@ -2525,24 +2439,6 @@ Critical Warning (169085): No exact pin location assignment(s) for 33 pins of 11
     Info (169086): Pin SENHA_TENTATIVA[2] not assigned to an exact location on the device
     Info (169086): Pin SENHA_TENTATIVA[1] not assigned to an exact location on the device
     Info (169086): Pin SENHA_TENTATIVA[0] not assigned to an exact location on the device
-    Info (169086): Pin SW11 not assigned to an exact location on the device
-    Info (169086): Pin SW10 not assigned to an exact location on the device
-    Info (169086): Pin SW9 not assigned to an exact location on the device
-    Info (169086): Pin SW8 not assigned to an exact location on the device
-    Info (169086): Pin KEY3 not assigned to an exact location on the device
-    Info (169086): Pin KEY0 not assigned to an exact location on the device
-    Info (169086): Pin SW5 not assigned to an exact location on the device
-    Info (169086): Pin SW4 not assigned to an exact location on the device
-    Info (169086): Pin SW3 not assigned to an exact location on the device
-    Info (169086): Pin SW2 not assigned to an exact location on the device
-    Info (169086): Pin SW1 not assigned to an exact location on the device
-    Info (169086): Pin SW0 not assigned to an exact location on the device
-    Info (169086): Pin SW17 not assigned to an exact location on the device
-    Info (169086): Pin SW16 not assigned to an exact location on the device
-    Info (169086): Pin SW15 not assigned to an exact location on the device
-    Info (169086): Pin SW14 not assigned to an exact location on the device
-    Info (169086): Pin SW13 not assigned to an exact location on the device
-    Info (169086): Pin SW12 not assigned to an exact location on the device
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'bomba_relogio.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
@@ -2554,18 +2450,18 @@ Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
 Info (176214): Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
-    Info (176211): Number of I/O pins in group: 33 (unused VREF, 3.3V VCCIO, 18 input, 15 output, 0 bidirectional)
+    Info (176211): Number of I/O pins in group: 15 (unused VREF, 3.3V VCCIO, 0 input, 15 output, 0 bidirectional)
         Info (176212): I/O standards used: 3.3-V LVTTL.
 Info (176215): I/O bank details before I/O pin placement
     Info (176214): Statistics of I/O banks
-        Info (176213): I/O bank number 1 does not use VREF pins and has 3.3V VCCIO pins. 17 total pin(s) used --  47 pins available
-        Info (176213): I/O bank number 2 does not use VREF pins and has 3.3V VCCIO pins. 14 total pin(s) used --  45 pins available
-        Info (176213): I/O bank number 3 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  56 pins available
-        Info (176213): I/O bank number 4 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  58 pins available
-        Info (176213): I/O bank number 5 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  65 pins available
-        Info (176213): I/O bank number 6 does not use VREF pins and has 3.3V VCCIO pins. 22 total pin(s) used --  37 pins available
-        Info (176213): I/O bank number 7 does not use VREF pins and has 3.3V VCCIO pins. 22 total pin(s) used --  36 pins available
-        Info (176213): I/O bank number 8 does not use VREF pins and has 3.3V VCCIO pins. 12 total pin(s) used --  44 pins available
+        Info (176213): I/O bank number 1 does not use VREF pins and has 3.3V VCCIO pins. 24 total pin(s) used --  40 pins available
+        Info (176213): I/O bank number 2 does not use VREF pins and has 3.3V VCCIO pins. 15 total pin(s) used --  44 pins available
+        Info (176213): I/O bank number 3 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  55 pins available
+        Info (176213): I/O bank number 4 does not use VREF pins and has undetermined VCCIO pins. 2 total pin(s) used --  56 pins available
+        Info (176213): I/O bank number 5 does not use VREF pins and has undetermined VCCIO pins. 2 total pin(s) used --  63 pins available
+        Info (176213): I/O bank number 6 does not use VREF pins and has 3.3V VCCIO pins. 23 total pin(s) used --  36 pins available
+        Info (176213): I/O bank number 7 does not use VREF pins and has 3.3V VCCIO pins. 24 total pin(s) used --  34 pins available
+        Info (176213): I/O bank number 8 does not use VREF pins and has 3.3V VCCIO pins. 14 total pin(s) used --  42 pins available
 Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "AUD_ADCDAT" is assigned to location or region, but does not exist in design
     Warning (15706): Node "AUD_ADCLRCK" is assigned to location or region, but does not exist in design
@@ -2838,24 +2734,6 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "SRAM_OE_N" is assigned to location or region, but does not exist in design
     Warning (15706): Node "SRAM_UB_N" is assigned to location or region, but does not exist in design
     Warning (15706): Node "SRAM_WE_N" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[0]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[10]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[11]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[12]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[13]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[14]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[15]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[16]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[17]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[1]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[2]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[3]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[4]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[5]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[6]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[7]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[8]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "SW[9]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "TCK" is assigned to location or region, but does not exist in design
     Warning (15706): Node "TCS" is assigned to location or region, but does not exist in design
     Warning (15706): Node "TDI" is assigned to location or region, but does not exist in design
@@ -2916,11 +2794,11 @@ Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X55_Y0 to location X65_Y11
+    Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X0_Y12 to location X10_Y23
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.19 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.16 seconds.
 Info (306004): Started post-fitting delay annotation
 Warning (306006): Found 98 output pins without output pin load capacitance assignment
     Info (306007): Pin "ERROU" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
@@ -3028,11 +2906,11 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info (144001): Generated suppressed messages file C:/Users/enzoc/Documents/GitHub/ProjetoLCL_C7/output_files/bomba_relogio.fit.smsg
-Info: Quartus II 64-Bit Fitter was successful. 0 errors, 349 warnings
-    Info: Peak virtual memory: 4881 megabytes
-    Info: Processing ended: Wed Jul 16 20:28:35 2025
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 331 warnings
+    Info: Peak virtual memory: 4889 megabytes
+    Info: Processing ended: Thu Jul 17 21:31:05 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 
 +----------------------------+

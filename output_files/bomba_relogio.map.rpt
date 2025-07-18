@@ -1,5 +1,5 @@
 Analysis & Synthesis report for bomba_relogio
-Wed Jul 16 20:28:31 2025
+Thu Jul 17 21:31:00 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -47,13 +47,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Jul 16 20:28:31 2025           ;
+; Analysis & Synthesis Status        ; Successful - Thu Jul 17 21:31:00 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; bomba_relogio                                   ;
 ; Top-level Entity Name              ; bomba_relogio                                   ;
 ; Family                             ; Cyclone II                                      ;
 ; Total logic elements               ; 316                                             ;
-;     Total combinational functions  ; 285                                             ;
+;     Total combinational functions  ; 287                                             ;
 ;     Dedicated logic registers      ; 121                                             ;
 ; Total registers                    ; 121                                             ;
 ; Total pins                         ; 117                                             ;
@@ -198,14 +198,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+------------------------------+
 ; Estimated Total logic elements              ; 316                          ;
 ;                                             ;                              ;
-; Total combinational functions               ; 285                          ;
+; Total combinational functions               ; 287                          ;
 ; Logic element usage by number of LUT inputs ;                              ;
-;     -- 4 input functions                    ; 93                           ;
-;     -- 3 input functions                    ; 48                           ;
-;     -- <=2 input functions                  ; 144                          ;
+;     -- 4 input functions                    ; 101                          ;
+;     -- 3 input functions                    ; 41                           ;
+;     -- <=2 input functions                  ; 145                          ;
 ;                                             ;                              ;
 ; Logic elements by mode                      ;                              ;
-;     -- normal mode                          ; 197                          ;
+;     -- normal mode                          ; 199                          ;
 ;     -- arithmetic mode                      ; 88                           ;
 ;                                             ;                              ;
 ; Total registers                             ; 121                          ;
@@ -215,9 +215,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; I/O pins                                    ; 117                          ;
 ; Embedded Multiplier 9-bit elements          ; 0                            ;
 ; Maximum fan-out node                        ; tick_generator:inst14|clkout ;
-; Maximum fan-out                             ; 97                           ;
-; Total fan-out                               ; 1203                         ;
-; Average fan-out                             ; 2.30                         ;
+; Maximum fan-out                             ; 70                           ;
+; Total fan-out                               ; 1216                         ;
+; Average fan-out                             ; 2.32                         ;
 +---------------------------------------------+------------------------------+
 
 
@@ -226,13 +226,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                               ; Library Name ;
 +-------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |bomba_relogio                            ; 285 (1)           ; 121 (7)      ; 0           ; 0            ; 0       ; 0         ; 117  ; 0            ; |bomba_relogio                                                                                                                    ; work         ;
+; |bomba_relogio                            ; 287 (2)           ; 121 (7)      ; 0           ; 0            ; 0       ; 0         ; 117  ; 0            ; |bomba_relogio                                                                                                                    ; work         ;
 ;    |DicaLEDR:inst24|                      ; 6 (6)             ; 12 (12)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|DicaLEDR:inst24                                                                                                    ; work         ;
 ;    |Dicas:inst25|                         ; 12 (12)           ; 12 (12)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|Dicas:inst25                                                                                                       ; work         ;
 ;    |DisplayTentativa:inst18|              ; 0 (0)             ; 6 (6)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|DisplayTentativa:inst18                                                                                            ; work         ;
 ;    |comparador_6bits:inst|                ; 5 (5)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|comparador_6bits:inst                                                                                              ; work         ;
 ;    |controle_senha:inst33|                ; 4 (4)             ; 11 (11)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|controle_senha:inst33                                                                                              ; work         ;
-;    |leds_vitoria:inst23|                  ; 47 (47)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|leds_vitoria:inst23                                                                                                ; work         ;
+;    |leds_vitoria:inst23|                  ; 48 (48)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|leds_vitoria:inst23                                                                                                ; work         ;
 ;    |mux_ledr:inst12|                      ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|mux_ledr:inst12                                                                                                    ; work         ;
 ;    |temporizador:inst7|                   ; 164 (40)          ; 20 (20)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7                                                                                                 ; work         ;
 ;       |hex7seg:h0|                        ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |bomba_relogio|temporizador:inst7|hex7seg:h0                                                                                      ; work         ;
@@ -284,7 +284,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of registers using Synchronous Load   ; 6     ;
 ; Number of registers using Asynchronous Clear ; 7     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 78    ;
+; Number of registers using Clock Enable       ; 76    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -294,7 +294,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; temporizador:inst7|derrota             ; 11      ;
+; temporizador:inst7|derrota             ; 13      ;
 ; Total number of inverted registers = 1 ;         ;
 +----------------------------------------+---------+
 
@@ -397,7 +397,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Jul 16 20:28:29 2025
+    Info: Processing started: Thu Jul 17 21:30:58 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bomba_relogio -c bomba_relogio
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file verilog/temporizador.v
@@ -433,19 +433,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file derrota
 Info (12021): Found 1 design units, including 1 entities, in source file multled.v
     Info (12023): Found entity 1: mux_ledr
 Info (12127): Elaborating entity "bomba_relogio" for the top level hierarchy
-Warning (275089): Not all bits in bus "KEY[3..0]" are used
-Warning (275080): Converted elements in bus name "KEY" using legacy naming rules. Make any assignments on the new names, not on the original names.
-    Warning (275081): Converted element name(s) from "KEY[0]" to "KEY0"
-    Warning (275081): Converted element name(s) from "KEY[3]" to "KEY3"
-Warning (275089): Not all bits in bus "SW[17..0]" are used
-Warning (275080): Converted elements in bus name "SW" using legacy naming rules. Make any assignments on the new names, not on the original names.
-    Warning (275081): Converted element name(s) from "SW[17..12]" to "SW17..12"
-    Warning (275081): Converted element name(s) from "SW[5..0]" to "SW5..0"
-    Warning (275081): Converted element name(s) from "SW[11..8]" to "SW11..8"
-Warning (275009): Pin "SW11" not connected
-Warning (275009): Pin "SW10" not connected
-Warning (275009): Pin "SW9" not connected
-Warning (275009): Pin "SW8" not connected
 Warning (275008): Primitive "GND" of instance "inst5888" not used
 Info (12128): Elaborating entity "comparador_6bits" for hierarchy "comparador_6bits:inst"
 Info (12128): Elaborating entity "tick_generator" for hierarchy "tick_generator:inst14"
@@ -513,17 +500,17 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 4 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "SW11"
-    Warning (15610): No output dependent on input pin "SW10"
-    Warning (15610): No output dependent on input pin "SW9"
-    Warning (15610): No output dependent on input pin "SW8"
+    Warning (15610): No output dependent on input pin "SW[11]"
+    Warning (15610): No output dependent on input pin "SW[10]"
+    Warning (15610): No output dependent on input pin "SW[9]"
+    Warning (15610): No output dependent on input pin "SW[8]"
 Info (21057): Implemented 433 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 19 input pins
     Info (21059): Implemented 98 output pins
     Info (21061): Implemented 316 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 49 warnings
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 36 warnings
     Info: Peak virtual memory: 4610 megabytes
-    Info: Processing ended: Wed Jul 16 20:28:31 2025
+    Info: Processing ended: Thu Jul 17 21:31:00 2025
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 

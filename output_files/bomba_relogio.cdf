@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C35F672) Path("C:/Users/aluno/Downloads/ProjetoLCL_C7-main/output_files/") File("bomba_relogio.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C35F672) Path("C:/Users/aluno/Downloads/ProjetoLCL_C7-main/ProjetoLCL_C7-main/output_files/") File("bomba_relogio.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
